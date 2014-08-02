@@ -1,0 +1,427 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_LINE_RENTAL_PACKAGE"
+        },
+        "spec": {
+            "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product_catalogue/SKY_LINE_RENTAL_PACKAGE"
+        },
+        "children": [
+            {
+                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/INSTALL_PRODUCTS"
+            },
+            {
+                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_LINE_RENTAL"
+            }
+        ]
+    },
+    "selectable": false,
+    "static_id": "SKY_LINE_RENTAL_PACKAGE",
+    "type": "non-selectable",
+    "_embedded": {
+        "children": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/INSTALL_PRODUCTS"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product_catalogue/INSTALL_PRODUCTS"
+                    },
+                    "children": [
+                        {
+                            "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/LINE_TRANSFER"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/LINE_ACTIVATION"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/LINE_INSTALLATION"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/LINE_TAKEOVER"
+                        }
+                    ]
+                },
+                "selectable": false,
+                "static_id": "INSTALL_PRODUCTS",
+                "type": "non-selectable",
+                "_embedded": {
+                    "children": [
+                        {
+                            "name": "Line Transfer",
+                            "_links": {
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/LINE_TRANSFER"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000361.C_000366"
+                                }
+                            },
+                            "selectable": false,
+                            "static_id": "LINE_TRANSFER",
+                            "type": "non-selectable",
+                            "quantity": 0
+                        },
+                        {
+                            "name": "Line Activation",
+                            "_links": {
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/LINE_ACTIVATION"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000361.C_000368"
+                                }
+                            },
+                            "selectable": false,
+                            "static_id": "LINE_ACTIVATION",
+                            "type": "non-selectable",
+                            "quantity": 0
+                        },
+                        {
+                            "name": "Line Installation",
+                            "_links": {
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/LINE_INSTALLATION"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000361.C_000362"
+                                }
+                            },
+                            "selectable": false,
+                            "static_id": "LINE_INSTALLATION",
+                            "type": "non-selectable",
+                            "quantity": 0
+                        },
+                        {
+                            "name": "Line Takeover",
+                            "_links": {
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/LINE_TAKEOVER"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000361.C_000466"
+                                }
+                            },
+                            "selectable": false,
+                            "static_id": "LINE_TAKEOVER",
+                            "type": "non-selectable",
+                            "quantity": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "_embedded": {
+                    "children": [
+                        {
+                            "name": "Retain Number",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198-F_000355;type=integral",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/RETAIN_NUMBER"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000198.F_000355"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "RETAIN_NUMBER",
+                            "type": "binary",
+                            "quantity": 0
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/CALLING_FEATURES"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product_catalogue/CALLING_FEATURES"
+                                },
+                                "children": [
+                                    {
+                                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/CALL_DIVERSION"
+                                    },
+                                    {
+                                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/ANONYMOUS_CALLER_REJECT"
+                                    },
+                                    {
+                                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/REMINDER_CALL"
+                                    },
+                                    {
+                                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/WITHHOLD_NUMBER"
+                                    },
+                                    {
+                                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/THREE_WAY_CALLING"
+                                    },
+                                    {
+                                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/VOICEMAIL_PLUS"
+                                    },
+                                    {
+                                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/CALL_WAITING"
+                                    },
+                                    {
+                                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/RING_BACK"
+                                    },
+                                    {
+                                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/1571_VOICEMAIL"
+                                    },
+                                    {
+                                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/CALLER_DISPLAY"
+                                    },
+                                    {
+                                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/LAST_CALLER_BARRING"
+                                    }
+                                ]
+                            },
+                            "selectable": false,
+                            "static_id": "CALLING_FEATURES",
+                            "type": "non-selectable",
+                            "_embedded": {
+                                "children": [
+                                    {
+                                        "name": "Call Diversion",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000322;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/CALL_DIVERSION"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000322"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "CALL_DIVERSION",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Anonymous Caller Reject",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000325;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/ANONYMOUS_CALLER_REJECT"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000325"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "ANONYMOUS_CALLER_REJECT",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Reminder Call",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000329;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/REMINDER_CALL"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000329"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "REMINDER_CALL",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Withhold Number",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000324;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/WITHHOLD_NUMBER"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000324"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "WITHHOLD_NUMBER",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Three Way Calling",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000330;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/THREE_WAY_CALLING"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000330"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "THREE_WAY_CALLING",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Voicemail Plus",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000332;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/VOICEMAIL_PLUS"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000332"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "VOICEMAIL_PLUS",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Call Waiting",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000327;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/CALL_WAITING"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000327"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "CALL_WAITING",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Ring Back",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000328;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/RING_BACK"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000328"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "RING_BACK",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "1571 Voicemail",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000331;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/1571_VOICEMAIL"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000331"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "1571_VOICEMAIL",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Caller Display",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000323;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/CALLER_DISPLAY"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000323"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "CALLER_DISPLAY",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Last Caller Barring",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000326;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/LAST_CALLER_BARRING"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000326"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "LAST_CALLER_BARRING",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "name": "Sky Line Rental",
+                "_links": {
+                    "remove_purchase": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198;type=binary",
+                        "method": "DELETE"
+                    },
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_LINE_RENTAL"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2016-06-10/product_catalogue/SKY_LINE_RENTAL"
+                    },
+                    "children": [
+                        {
+                            "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/RETAIN_NUMBER"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/536ca501d0457e09cb22c16e/baskalogue/CALLING_FEATURES"
+                        }
+                    ]
+                },
+                "selectable": true,
+                "static_id": "SKY_LINE_RENTAL",
+                "type": "binary",
+                "quantity": 1
+            }
+        ]
+    }
+}

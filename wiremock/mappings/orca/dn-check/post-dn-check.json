@@ -1,0 +1,12 @@
+{
+    "description": "Set the dn-check provisionable bundles only ONNET-MPF-DATA",
+    "request": {
+        "method": "GET",
+        "urlPattern": "/orca/standard_sales_journey/000001/dn-check\\?directory_number=[0-9]+"
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "orca/standard-sales-journey/dn-check.json"
+    }
+}

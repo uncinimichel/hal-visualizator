@@ -1,0 +1,12 @@
+{
+    "description": "Orca journey manager account in debt find-account",
+    "request": {
+        "method": "GET",
+        "url": "/orca/find_account?party_id=11111111111111111111021"
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "orca/find-account/debt.json"
+    }
+}

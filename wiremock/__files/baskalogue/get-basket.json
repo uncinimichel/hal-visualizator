@@ -1,0 +1,26 @@
+{
+    "_links": {
+        "reset": {
+            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reset",
+            "method": "PUT",
+            "templated": true
+        },
+        "offers": {
+            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offers"
+        },
+        "self": {
+            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e"
+        },
+        "selection": {
+            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/products"
+        },
+        "charges": {
+            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/charges"
+        },
+        "products": {
+            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/baskalogue{/static_id}",
+            "templated": true
+        }
+    },
+    "id": "536ca501d0457e09cb22c16e"
+}

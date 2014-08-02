@@ -1,0 +1,21 @@
+{
+    "exchangeStatus": "ONNET",
+    "searchCriteria": {
+        "value": "02078902222",
+        "type": "DIRECTORY_NUMBER"
+    },
+    "_links": {
+        "orca:self": {
+            "href": "$host/stubs/orca/webapi/standard_sales_journey/000001/dn-check?directory_number=02078902222"
+        }
+    },
+    "installationScenario": "Transfer",
+    "dataResource": {
+        "lowerEstimatedSpeed": "12285",
+        "upperEstimatedSpeed": "19005",
+        "name": "ONNET-MPF-DATA",
+        "enablementDate": "20140609",
+        "skyService": true,
+        "minimumSpeed": "8187"
+    }
+}

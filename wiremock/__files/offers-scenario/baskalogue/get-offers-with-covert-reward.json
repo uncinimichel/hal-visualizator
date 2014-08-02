@@ -1,0 +1,433 @@
+{
+    "_embedded": {
+        "offer": [
+            {
+                "_embedded": {
+                    "choices": [{
+                        "display_name": "Free Sky+ HD 1TB Box",
+                        "path_str": "B_000109.P_000252.OF_000981.D_000982",
+                        "name": "Free Sky+ HD 1TB Box",
+                        "_links": {
+                            "self": {
+                                "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/discount/B_000109.P_000252.OF_000981.D_000982"
+                            },
+                            "spec": {
+                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/discount/B_000109.P_000252.OF_000981.D_000982"
+                            }
+                        },
+                        "applies_to_product": "B_000109.P_000252.OF_000981",
+                        "offer_type": "discount",
+                        "quantity": 0
+                    }]
+                },
+                "name": "Free Any Sky+ HD 1TB Box",
+                "classification": "Covert",
+                "dependencies_met": false,
+                "_links": {
+                    "add_purchase": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer;action=target;path=B_000109-P_000252-OF_000981;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer/B_000109-P_000252-OF_000981"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/offer/B_000109.P_000252.OF_000981"
+                    },
+                    "choices": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/discount/B_000109.P_000252.OF_000981.D_000982"
+                    }
+                },
+                "selectable": true,
+                "type": "binary",
+                "id": "B_000109.P_000252.OF_000981",
+                "quantity": 0
+            },
+            {
+                "name": "Another amazing offer",
+                "classification": "Overt",
+                "dependencies_met": false,
+                "_links": {
+                    "add_purchase": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer;action=target;path=B_000109-P_000252-OF_000981;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer/B_000109-P_000252-OF_000981"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/offer/B_000109.P_000252.OF_000981"
+                    },
+                    "choices": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/discount/B_000109.P_000252.OF_000981.D_000982"
+                    }
+                },
+                "selectable": true,
+                "type": "binary",
+                "id": "B_000109.P_000252.OF_000981",
+                "quantity": 0
+            },
+            {
+                "name": "Amazing offer",
+                "classification": "Covert",
+                "dependencies_met": false,
+                "_links": {
+                    "add_purchase": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer;action=target;path=B_000109-P_000252-OF_000981;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer/B_000109-P_000252-OF_000981"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/offer/B_000109.P_000252.OF_000981"
+                    },
+                    "choices": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/discount/B_000109.P_000252.OF_000981.D_000982"
+                    }
+                },
+                "selectable": true,
+                "type": "binary",
+                "id": "B_000109.P_000252.OF_000981",
+                "quantity": 0
+            },
+            {
+                "_embedded": {
+                    "choices": [{
+                        "offer_type": "credit",
+                        "display_name": "10GBP Credit",
+                        "path_str": "B_000109.P_000403.OF_000809.D_000461",
+                        "quantity": 0,
+                        "_links": {
+                            "self": {
+                                "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/credit/B_000109.P_000403.OF_000809.D_000461"
+                            },
+                            "spec": {
+                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/credit/B_000109.P_000403.OF_000809.D_000461"
+                            }
+                        },
+                        "applies_to_product": "B_000109.P_000403.OF_000809",
+                        "static_id": "10_CREDIT",
+                        "name": "10GBP Credit"
+                    }]
+                },
+                "name": "£10 Credit where Proposition is not Christmas",
+                "classification": "Covert",
+                "dependencies_met": true,
+                "_links": {
+                    "add_purchase": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer;action=target;path=B_000109-P_000403-OF_000809;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer/B_000109-P_000403-OF_000809"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/offer/B_000109.P_000403.OF_000809"
+                    },
+                    "choices": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/credit/B_000109.P_000403.OF_000809.D_000461"
+                    }
+                },
+                "selectable": true,
+                "type": "binary",
+                "id": "B_000109.P_000403.OF_000809",
+                "quantity": 0
+            },
+            {
+                "_embedded": {
+                    "choices": [
+                        {
+                            "offer_type": "reward",
+                            "display_name": "£75 Boots Voucher",
+                            "path_str": "B_000109.P_000576.OF_001117.D_001055",
+                            "quantity": 1,
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer_item;path=B_000109-P_000576-OF_001117;implementation_id=VCH_BOOTS_75_GBP",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/reward/B_000109.P_000576.OF_001117.D_001055"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/reward/B_000109.P_000576.OF_001117.D_001055"
+                                }
+                            },
+                            "applies_to_product": "B_000109.P_000576.OF_001117",
+                            "static_id": "VCH_BOOTS_75_GBP",
+                            "name": "£75 Boots Voucher"
+                        },
+                        {
+                            "offer_type": "reward",
+                            "display_name": "£75 John Lewis Voucher",
+                            "path_str": "B_000109.P_000576.OF_001117.D_001054",
+                            "quantity": 0,
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer_item;path=B_000109-P_000576-OF_001117;implementation_id=VCH_JOHNLEWIS_75_GBP",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/reward/B_000109.P_000576.OF_001117.D_001054"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/reward/B_000109.P_000576.OF_001117.D_001054"
+                                }
+                            },
+                            "applies_to_product": "B_000109.P_000576.OF_001117",
+                            "static_id": "VCH_JOHNLEWIS_75_GBP",
+                            "name": "£75 John Lewis Voucher"
+                        },
+                        {
+                            "offer_type": "reward",
+                            "display_name": "£75 Tesco Voucher",
+                            "path_str": "B_000109.P_000576.OF_001117.D_001053",
+                            "quantity": 0,
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer_item;path=B_000109-P_000576-OF_001117;implementation_id=VCH_TESCO_75_GBP",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/reward/B_000109.P_000576.OF_001117.D_001053"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/reward/B_000109.P_000576.OF_001117.D_001053"
+                                }
+                            },
+                            "applies_to_product": "B_000109.P_000576.OF_001117",
+                            "static_id": "VCH_TESCO_75_GBP",
+                            "name": "£75 Tesco Voucher"
+                        },
+                        {
+                            "offer_type": "reward",
+                            "display_name": "£75 Marks and Spencer eVoucher",
+                            "path_str": "B_000109.P_000576.OF_001117.D_001052",
+                            "quantity": 0,
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer_item;path=B_000109-P_000576-OF_001117;implementation_id=EVCH_75_GBP",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/reward/B_000109.P_000576.OF_001117.D_001052"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/reward/B_000109.P_000576.OF_001117.D_001052"
+                                }
+                            },
+                            "applies_to_product": "B_000109.P_000576.OF_001117",
+                            "static_id": "EVCH_75_GBP",
+                            "name": "£75 Marks and Spencer eVoucher"
+                        },
+                        {
+                            "applies_to_product": "B_000109.P_000576.OF_001117",
+                            "offer_type": "declined",
+                            "display_name": "No thanks",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/decline_choice;path=B_000109-P_000576-OF_001117",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/declined/B_000109.P_000576.OF_001117"
+                                }
+                            },
+                            "path_str": "B_000109.P_000576.OF_001117",
+                            "quantity": 0
+                        }
+                    ]
+                },
+                "name": "Multiple Rewards 75/75 - No Prop Code",
+                "classification": "Covert",
+                "implementation_declined_uri": "Offer/OF_001117/ImplementationDeclined",
+                "dependencies_met": true,
+                "implementation_action": "requires_one_or_none",
+                "_links": {
+                    "add_purchase": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer;action=target;path=B_000109-P_000576-OF_001117;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer/B_000109-P_000576-OF_001117"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/offer/B_000109.P_000576.OF_001117"
+                    },
+                    "choices": [
+                        {
+                            "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/reward/B_000109.P_000576.OF_001117.D_001055"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/reward/B_000109.P_000576.OF_001117.D_001054"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/reward/B_000109.P_000576.OF_001117.D_001053"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/reward/B_000109.P_000576.OF_001117.D_001052"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/declined/B_000109.P_000576.OF_001117"
+                        }
+                    ]
+                },
+                "implementation_uri": "Offer/OF_001117/ImplementationId",
+                "selectable": true,
+                "type": "binary",
+                "id": "B_000109.P_000576.OF_001117",
+                "quantity": 1
+            },
+            {
+                "_embedded": {
+                    "choices": [{
+                        "display_name": "Test Auto Complex Dependency Credit Discount",
+                        "path_str": "B_000109.P_000576.OF_000532.D_000535",
+                        "name": "Test Auto Complex Dependency Credit Discount",
+                        "_links": {
+                            "remove_purchase": {
+                                "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/decline_choice;path=B_000109-P_000576-OF_001117",
+                                "method": "POST"
+                            },
+                            "self": {
+                                "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/credit/B_000109.P_000576.OF_000532.D_000535"
+                            },
+                            "spec": {
+                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/credit/B_000109.P_000576.OF_000532.D_000535"
+                            }
+                        },
+                        "applies_to_product": "B_000109.P_000576.OF_000532",
+                        "offer_type": "credit",
+                        "quantity": 1
+                    }]
+                },
+                "name": "Test Auto Complex Dependency Credit Offer",
+                "classification": "Overt",
+                "dependencies_met": true,
+                "_links": {
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer/B_000109-P_000576-OF_000532"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/offer/B_000109.P_000576.OF_000532"
+                    },
+                    "choices": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/credit/B_000109.P_000576.OF_000532.D_000535"
+                    }
+                },
+                "selectable": false,
+                "type": "non-selectable",
+                "id": "B_000109.P_000576.OF_000532",
+                "quantity": 1
+            },
+            {
+                "_embedded": {
+                    "choices": [{
+                        "display_name": "Test Auto Channel AND RTM Discount",
+                        "path_str": "B_000109.P_000252.OF_000734.D_000730",
+                        "name": "Test Auto Channel AND RTM Discount",
+                        "_links": {
+                            "self": {
+                                "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/discount/B_000109.P_000252.OF_000734.D_000730"
+                            },
+                            "spec": {
+                                "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/discount/B_000109.P_000252.OF_000734.D_000730"
+                            }
+                        },
+                        "applies_to_product": "B_000109.P_000252.OF_000734",
+                        "offer_type": "discount",
+                        "quantity": 0
+                    }]
+                },
+                "name": "Test Auto Channel AND RTMs Discount Offer",
+                "classification": "Overt",
+                "dependencies_met": false,
+                "_links": {
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer/B_000109-P_000252-OF_000734"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/offer/B_000109.P_000252.OF_000734"
+                    },
+                    "choices": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/discount/B_000109.P_000252.OF_000734.D_000730"
+                    }
+                },
+                "selectable": false,
+                "type": "non-selectable",
+                "id": "B_000109.P_000252.OF_000734",
+                "quantity": 0
+            },
+            {
+                "_embedded": {
+                    "choices": [
+                        {
+                            "offer_type": "discount",
+                            "display_name": "50% off TV for 6 months",
+                            "path_str": "B_000109.P_001177.OF_001193.D_001009",
+                            "quantity": 0,
+                            "_links": {
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/discount/B_000109.P_001177.OF_001193.D_001009"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/discount/B_000109.P_001177.OF_001193.D_001009"
+                                }
+                            },
+                            "applies_to_product": "B_000109.P_001177.OF_001193",
+                            "static_id": "50_TV_DISCOUNT",
+                            "name": "50% off TV for 6 months"
+                        },
+                        {
+                            "offer_type": "credit",
+                            "display_name": "100GBP Credit",
+                            "path_str": "B_000109.P_001177.OF_001193.D_000804",
+                            "quantity": 0,
+                            "_links": {
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/credit/B_000109.P_001177.OF_001193.D_000804"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/credit/B_000109.P_001177.OF_001193.D_000804"
+                                }
+                            },
+                            "applies_to_product": "B_000109.P_001177.OF_001193",
+                            "static_id": "100_CREDIT",
+                            "name": "100GBP Credit"
+                        }
+                    ]
+                },
+                "name": "Auto with both Credit and Discount",
+                "classification": "Customer Specific",
+                "dependencies_met": false,
+                "_links": {
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offer/B_000109-P_001177-OF_001193"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-06-14/offer/B_000109.P_001177.OF_001193"
+                    },
+                    "choices": [
+                        {
+                            "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/discount/B_000109.P_001177.OF_001193.D_001009"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/credit/B_000109.P_001177.OF_001193.D_000804"
+                        }
+                    ]
+                },
+                "selectable": false,
+                "type": "non-selectable",
+                "id": "B_000109.P_001177.OF_001193",
+                "quantity": 0
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "http://0.0.0.0:7777/basket/53b12998ff58f06fc91d5d61/offers"
+        },
+        "offer": []
+    }
+}

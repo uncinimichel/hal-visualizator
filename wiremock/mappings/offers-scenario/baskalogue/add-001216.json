@@ -1,0 +1,13 @@
+{
+    "description": "Offers scenario - add OF_001216",
+    "scenarioName": "Offers Scenario",
+    "newScenarioState": "75 Voucher added",
+
+    "request": {
+        "method": "POST",
+        "url": "/baskalogue/basket/53b12998ff58f06fc91d5d61/offer;action=target;path=B_000109-P_000576-OF_001117;type=binary"
+    },
+    "response": {
+        "status": 204
+    }
+}

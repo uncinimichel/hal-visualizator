@@ -1,0 +1,13 @@
+{
+    "description": "Orca journey manager create basket",
+    "request": {
+        "method": "POST",
+        "urlPattern": "/orca/standard_sales_journey/[0-9]+/basket"
+    },
+    "response": {
+        "status": 201,
+        "headers": {
+            "Location": "$host/stubs/baskalogue/basket/000001"
+        }
+    }
+}

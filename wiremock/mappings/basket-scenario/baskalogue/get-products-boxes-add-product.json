@@ -1,0 +1,15 @@
+{
+    "scenarioName": "Basket scenario",
+    "requiredScenarioState": "Started",
+    "newScenarioState": "Product added",
+    "description": "Orca journey manager root",
+    "request": {
+        "method": "POST",
+        "url": "/baskalogue/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000107-C_000104;type=integral"
+    },
+    "response": {
+        "status": 204
+
+    }
+}
+

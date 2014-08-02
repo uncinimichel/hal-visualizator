@@ -1,0 +1,15 @@
+{
+    "_links": {
+        "orca:get-basket": {
+            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e",
+            "templated": true
+        },
+        "orca:dn-check": {
+            "templated": true,
+            "href": "$host/stubs/orca/standard_sales_journey/000001/dn-check?directory_number={directory_number}"
+        },
+        "self": {
+            "href": "$host/stubs/orca/journey/BASKETSCENARIO"
+        }
+    }
+}

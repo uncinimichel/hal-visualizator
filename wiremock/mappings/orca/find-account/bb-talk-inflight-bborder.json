@@ -1,0 +1,12 @@
+{
+"description": "Orca journey manager account has order find-account",
+"request": {
+"method": "GET",
+"url": "/orca/find_account?party_id=11111111111111111111023"
+},
+"response": {
+"status": 200,
+"headers": { "Content-Type": "application/hal+json" },
+"bodyFileName": "orca/find-account/bb-talk-inflight-bborder.json"
+}
+}

@@ -1,0 +1,85 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/baskalogue/SKY_TALK"
+        },
+        "spec": {
+            "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product_catalogue/SKY_TALK"
+        },
+        "children": [
+            {
+                "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/baskalogue/TALK_SUBSCRIPTION"
+            }
+        ]
+    },
+    "selectable": false,
+    "static_id": "SKY_TALK",
+    "type": "non-selectable",
+    "_embedded": {
+        "children": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/baskalogue/TALK_SUBSCRIPTION"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product_catalogue/TALK_SUBSCRIPTION"
+                    },
+                    "children": [
+                        {
+                            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/TALK_UNLIMITED"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/TALK_FREETIME"
+                        }
+                    ]
+                },
+                "selectable": false,
+                "static_id": "TALK_SUBSCRIPTION",
+                "type": "non-selectable",
+                "_embedded": {
+                    "children": [
+                        {
+                            "name": "Talk Unlimited",
+                            "_links": {
+                                "remove_purchase": {
+                                    "href": "$host/stubs/baskalogue/basket/538c4235ff58f06efb66f238/products;action=target;path=B_000109-P_000202-P_000197-P_000200-C_000195;type=discrete",
+                                    "method": "DELETE"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/TALK_UNLIMITED"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product/B_000109.P_000202.P_000197.P_000200.C_000195"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "TALK_UNLIMITED",
+                            "type": "discrete",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Talk Freetime",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products;action=target;path=B_000109-P_000202-P_000197-P_000200-C_000192;type=discrete",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/TALK_FREETIME"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product/B_000109.P_000202.P_000197.P_000200.C_000192"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "TALK_FREETIME",
+                            "type": "discrete",
+                            "quantity": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

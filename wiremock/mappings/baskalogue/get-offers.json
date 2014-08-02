@@ -1,0 +1,15 @@
+{
+    "description": "Baskalogue get basket offers",
+    "scenarioName": "Offers Scenario",
+    "requiredScenarioState": "Started",
+
+    "request": {
+        "method": "GET",
+        "urlPattern": "/baskalogue/basket/536ca501d0457e09cb22c16e/offers"
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "baskalogue/get-offers.json"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "_links": {
+        "basket": {
+            "href": "$host/basket{/basket_id}",
+            "method": "GET",
+            "templated": true
+        },
+        "create_basket": {
+            "href": "$host/catalogue{/channel,date}/basket",
+            "method": "POST",
+            "templated": true
+        },
+        "self": {
+            "href": "$host:7777/"
+        }
+    }
+}

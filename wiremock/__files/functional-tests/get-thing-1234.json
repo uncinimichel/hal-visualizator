@@ -1,0 +1,9 @@
+{
+    "_links": {
+        "self": {
+            "href": "$host/functional-tests/get-thing/1234"
+        }
+    },
+    "id": 1234,
+    "name": "Thing number 1234"
+}

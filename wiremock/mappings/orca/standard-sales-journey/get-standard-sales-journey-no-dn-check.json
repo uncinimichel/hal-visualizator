@@ -1,0 +1,14 @@
+{
+    "description": "Orca journey manager get-something",
+    "request": {
+        "method": "GET",
+        "url": "/orca/standard-sales-journey/000009"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/hal+json"
+        },
+        "bodyFileName": "orca/standard-sales-journey/get-standard-sales-journey-no-dn-check.json"
+    }
+}

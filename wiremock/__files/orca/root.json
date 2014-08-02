@@ -1,0 +1,15 @@
+{
+    "_links": {
+        "test:get-sales-journey": {
+            "href": "$host/stubs/orca/standard-sales-journey/{journey_id}",
+            "templated": true
+        },
+        "orca:find-account": {
+            "href": "$host/stubs/orca/find_account?party_id={party_id}",
+            "templated": true
+        },
+        "self": {
+            "href": "$host/orca/"
+        }
+    }
+}

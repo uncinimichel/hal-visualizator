@@ -1,0 +1,15 @@
+{
+    "description": "Baskalogue get basket offers with covert reward",
+    "scenarioName": "Offers Scenario",
+    "requiredScenarioState": "Covert reward",
+
+    "request": {
+        "method": "GET",
+        "urlPattern": "/baskalogue/basket/536ca501d0457e09cb22c16e/offers"
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "offers-scenario/baskalogue/get-offers-with-covert-reward.json"
+    }
+}

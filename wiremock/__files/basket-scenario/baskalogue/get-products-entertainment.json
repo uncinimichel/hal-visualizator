@@ -1,0 +1,104 @@
+{
+    "_links": {
+        "self": {
+            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/ENTERTAINMENT_PACKS"
+        },
+        "spec": {
+            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/ENTERTAINMENT_PACKS"
+        },
+        "children": [
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT_EXTRA_PLUS"
+            },
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT_EXTRA"
+            },
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT"
+            }
+        ]
+    },
+    "selectable": false,
+    "static_id": "ENTERTAINMENT_PACKS",
+    "type": "non-selectable",
+    "_embedded": {
+        "children": [
+            {
+                "name": "Entertainment Extra +",
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000143-C_000933;type=discrete",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT_EXTRA_PLUS"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000143.C_000933"
+                    }
+                },
+                "selectable": false,
+                "static_id": "ENTERTAINMENT_EXTRA_PLUS",
+                "type": "discrete",
+                "quantity": 0
+            },
+            {
+                "name": "Entertainment Extra Non Selectable",
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000143-C_000153;type=discrete",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT_EXTRA"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000143.C_000153"
+                    }
+                },
+                "selectable": false,
+                "static_id": "ENTERTAINMENT_EXTRA",
+                "type": "discrete",
+                "quantity": 1
+            },
+            {
+                "name": "Entertainment",
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000143-C_000151;type=discrete",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000143.C_000151"
+                    }
+                },
+                "selectable": true,
+                "static_id": "ENTERTAINMENT",
+                "type": "discrete",
+                "quantity": 0
+            },
+            {
+                "name": "Entertainment Selectable ",
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000143-C_000151;type=discrete",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000143.C_000151"
+                    }
+                },
+                "selectable": true,
+                "static_id": "ENTERTAINMENT",
+                "type": "discrete",
+                "quantity": 1
+            }
+        ]
+    }
+}

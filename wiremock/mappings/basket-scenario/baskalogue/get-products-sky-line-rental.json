@@ -1,0 +1,18 @@
+{
+    "scenarioName": "Sky Line Rental",
+    "requiredScenarioState": "Started",
+    "description": "Orca journey manager root",
+    "request": {
+        "method": "GET",
+        "url": "/baskalogue/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_LINE_RENTAL_PACKAGE"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/hal+json",
+            "cache-control": "no-cache"
+        },
+        "bodyFileName": "basket-scenario/baskalogue/get-products-sky-line-rental.json"
+    }
+}
+

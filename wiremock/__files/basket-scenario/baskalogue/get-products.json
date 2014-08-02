@@ -1,0 +1,1834 @@
+{
+    "_embedded": {
+        "children": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_TALK_AND_BB_PACKAGE"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/SKY_TALK_AND_BB_PACKAGE"
+                    },
+                    "children": [
+                        {
+                            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_TALK"
+                        },
+                        {
+                            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_LINE_RENTAL_PACKAGE"
+                        },
+                        {
+                            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/NON_SALEABLE_PRODUCTS"
+                        },
+                        {
+                            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_BROADBAND"
+                        }
+                    ]
+                },
+                "selectable": false,
+                "static_id": "SKY_TALK_AND_BB_PACKAGE",
+                "type": "non-selectable",
+                "_embedded": {
+                    "children": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_TALK"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/SKY_TALK"
+                                },
+                                "children": [
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/TALK_SUBSCRIPTION"
+                                    }
+                                ]
+                            },
+                            "selectable": false,
+                            "static_id": "SKY_TALK",
+                            "type": "non-selectable",
+                            "_embedded": {
+                                "children": [
+                                    {
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/TALK_SUBSCRIPTION"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/TALK_SUBSCRIPTION"
+                                            },
+                                            "children": [
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/TALK_UNLIMITED"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/TALK_FREETIME"
+                                                }
+                                            ]
+                                        },
+                                        "selectable": false,
+                                        "static_id": "TALK_SUBSCRIPTION",
+                                        "type": "non-selectable",
+                                        "_embedded": {
+                                            "children": [
+                                                {
+                                                    "name": "Talk Unlimited",
+                                                    "satisfies_dependency": true,
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000197-P_000200-C_000195;type=discrete",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/TALK_UNLIMITED"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000197.P_000200.C_000195"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "TALK_UNLIMITED",
+                                                    "type": "discrete",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Talk Freetime",
+                                                    "satisfies_dependency": true,
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000197-P_000200-C_000192;type=discrete",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/TALK_FREETIME"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000197.P_000200.C_000192"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "TALK_FREETIME",
+                                                    "type": "discrete",
+                                                    "quantity": 0
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_LINE_RENTAL_PACKAGE"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/SKY_LINE_RENTAL_PACKAGE"
+                                },
+                                "children": [
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/INSTALL_PRODUCTS"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_LINE_RENTAL"
+                                    }
+                                ]
+                            },
+                            "selectable": false,
+                            "static_id": "SKY_LINE_RENTAL_PACKAGE",
+                            "type": "non-selectable",
+                            "_embedded": {
+                                "children": [
+                                    {
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/INSTALL_PRODUCTS"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/INSTALL_PRODUCTS"
+                                            },
+                                            "children": [
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/LINE_TRANSFER"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/LINE_ACTIVATION"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/LINE_INSTALLATION"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/LINE_TAKEOVER"
+                                                }
+                                            ]
+                                        },
+                                        "selectable": false,
+                                        "static_id": "INSTALL_PRODUCTS",
+                                        "type": "non-selectable",
+                                        "_embedded": {
+                                            "children": [
+                                                {
+                                                    "name": "Line Transfer",
+                                                    "_links": {
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/LINE_TRANSFER"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000361.C_000366"
+                                                        }
+                                                    },
+                                                    "selectable": false,
+                                                    "static_id": "LINE_TRANSFER",
+                                                    "type": "non-selectable",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Line Activation",
+                                                    "_links": {
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/LINE_ACTIVATION"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000361.C_000368"
+                                                        }
+                                                    },
+                                                    "selectable": false,
+                                                    "static_id": "LINE_ACTIVATION",
+                                                    "type": "non-selectable",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Line Installation",
+                                                    "_links": {
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/LINE_INSTALLATION"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000361.C_000362"
+                                                        }
+                                                    },
+                                                    "selectable": false,
+                                                    "static_id": "LINE_INSTALLATION",
+                                                    "type": "non-selectable",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Line Takeover",
+                                                    "_links": {
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/LINE_TAKEOVER"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000361.C_000466"
+                                                        }
+                                                    },
+                                                    "selectable": false,
+                                                    "static_id": "LINE_TAKEOVER",
+                                                    "type": "non-selectable",
+                                                    "quantity": 0
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_LINE_RENTAL"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/SKY_LINE_RENTAL"
+                                            },
+                                            "children": [
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/RETAIN_NUMBER"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/CALLING_FEATURES"
+                                                }
+                                            ]
+                                        },
+                                        "selectable": false,
+                                        "static_id": "SKY_LINE_RENTAL",
+                                        "type": "non-selectable",
+                                        "_embedded": {
+                                            "children": [
+                                                {
+                                                    "name": "Retain Number",
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000281-C_000198-F_000355;type=integral",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/RETAIN_NUMBER"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000198.F_000355"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "RETAIN_NUMBER",
+                                                    "type": "integral",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "_links": {
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/CALLING_FEATURES"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/CALLING_FEATURES"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/CALL_DIVERSION"
+                                                            },
+                                                            {
+                                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/ANONYMOUS_CALLER_REJECT"
+                                                            },
+                                                            {
+                                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/REMINDER_CALL"
+                                                            },
+                                                            {
+                                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/WITHHOLD_NUMBER"
+                                                            },
+                                                            {
+                                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/THREE_WAY_CALLING"
+                                                            },
+                                                            {
+                                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/VOICEMAIL_PLUS"
+                                                            },
+                                                            {
+                                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/CALL_WAITING"
+                                                            },
+                                                            {
+                                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/RING_BACK"
+                                                            },
+                                                            {
+                                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/1571_VOICEMAIL"
+                                                            },
+                                                            {
+                                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/CALLER_DISPLAY"
+                                                            },
+                                                            {
+                                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/LAST_CALLER_BARRING"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "selectable": false,
+                                                    "static_id": "CALLING_FEATURES",
+                                                    "type": "non-selectable",
+                                                    "_embedded": {
+                                                        "children": [
+                                                            {
+                                                                "name": "Call Diversion",
+                                                                "_links": {
+                                                                    "add_purchase": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000322;type=binary",
+                                                                        "method": "POST"
+                                                                    },
+                                                                    "self": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/CALL_DIVERSION"
+                                                                    },
+                                                                    "spec": {
+                                                                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000322"
+                                                                    }
+                                                                },
+                                                                "selectable": true,
+                                                                "static_id": "CALL_DIVERSION",
+                                                                "type": "binary",
+                                                                "quantity": 0
+                                                            },
+                                                            {
+                                                                "name": "Anonymous Caller Reject",
+                                                                "_links": {
+                                                                    "add_purchase": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000325;type=binary",
+                                                                        "method": "POST"
+                                                                    },
+                                                                    "self": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/ANONYMOUS_CALLER_REJECT"
+                                                                    },
+                                                                    "spec": {
+                                                                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000325"
+                                                                    }
+                                                                },
+                                                                "selectable": true,
+                                                                "static_id": "ANONYMOUS_CALLER_REJECT",
+                                                                "type": "binary",
+                                                                "quantity": 0
+                                                            },
+                                                            {
+                                                                "name": "Reminder Call",
+                                                                "_links": {
+                                                                    "add_purchase": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000329;type=binary",
+                                                                        "method": "POST"
+                                                                    },
+                                                                    "self": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/REMINDER_CALL"
+                                                                    },
+                                                                    "spec": {
+                                                                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000329"
+                                                                    }
+                                                                },
+                                                                "selectable": true,
+                                                                "static_id": "REMINDER_CALL",
+                                                                "type": "binary",
+                                                                "quantity": 0
+                                                            },
+                                                            {
+                                                                "name": "Withhold Number",
+                                                                "_links": {
+                                                                    "add_purchase": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000324;type=binary",
+                                                                        "method": "POST"
+                                                                    },
+                                                                    "self": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/WITHHOLD_NUMBER"
+                                                                    },
+                                                                    "spec": {
+                                                                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000324"
+                                                                    }
+                                                                },
+                                                                "selectable": true,
+                                                                "static_id": "WITHHOLD_NUMBER",
+                                                                "type": "binary",
+                                                                "quantity": 0
+                                                            },
+                                                            {
+                                                                "name": "Three Way Calling",
+                                                                "_links": {
+                                                                    "add_purchase": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000330;type=binary",
+                                                                        "method": "POST"
+                                                                    },
+                                                                    "self": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/THREE_WAY_CALLING"
+                                                                    },
+                                                                    "spec": {
+                                                                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000330"
+                                                                    }
+                                                                },
+                                                                "selectable": true,
+                                                                "static_id": "THREE_WAY_CALLING",
+                                                                "type": "binary",
+                                                                "quantity": 0
+                                                            },
+                                                            {
+                                                                "name": "Voicemail Plus",
+                                                                "dependencies_satisfied": true,
+                                                                "_links": {
+                                                                    "add_purchase": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000332;type=binary",
+                                                                        "method": "POST"
+                                                                    },
+                                                                    "self": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/VOICEMAIL_PLUS"
+                                                                    },
+                                                                    "spec": {
+                                                                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000332"
+                                                                    }
+                                                                },
+                                                                "selectable": true,
+                                                                "static_id": "VOICEMAIL_PLUS",
+                                                                "type": "binary",
+                                                                "quantity": 0
+                                                            },
+                                                            {
+                                                                "name": "Call Waiting",
+                                                                "_links": {
+                                                                    "add_purchase": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000327;type=binary",
+                                                                        "method": "POST"
+                                                                    },
+                                                                    "self": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/CALL_WAITING"
+                                                                    },
+                                                                    "spec": {
+                                                                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000327"
+                                                                    }
+                                                                },
+                                                                "selectable": true,
+                                                                "static_id": "CALL_WAITING",
+                                                                "type": "binary",
+                                                                "quantity": 0
+                                                            },
+                                                            {
+                                                                "name": "Ring Back",
+                                                                "_links": {
+                                                                    "add_purchase": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000328;type=binary",
+                                                                        "method": "POST"
+                                                                    },
+                                                                    "self": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/RING_BACK"
+                                                                    },
+                                                                    "spec": {
+                                                                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000328"
+                                                                    }
+                                                                },
+                                                                "selectable": true,
+                                                                "static_id": "RING_BACK",
+                                                                "type": "binary",
+                                                                "quantity": 0
+                                                            },
+                                                            {
+                                                                "name": "1571 Voicemail",
+                                                                "dependencies_satisfied": true,
+                                                                "_links": {
+                                                                    "add_purchase": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000331;type=binary",
+                                                                        "method": "POST"
+                                                                    },
+                                                                    "self": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/1571_VOICEMAIL"
+                                                                    },
+                                                                    "spec": {
+                                                                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000331"
+                                                                    }
+                                                                },
+                                                                "selectable": true,
+                                                                "static_id": "1571_VOICEMAIL",
+                                                                "type": "binary",
+                                                                "quantity": 0
+                                                            },
+                                                            {
+                                                                "name": "Caller Display",
+                                                                "_links": {
+                                                                    "add_purchase": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000323;type=binary",
+                                                                        "method": "POST"
+                                                                    },
+                                                                    "self": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/CALLER_DISPLAY"
+                                                                    },
+                                                                    "spec": {
+                                                                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000323"
+                                                                    }
+                                                                },
+                                                                "selectable": true,
+                                                                "static_id": "CALLER_DISPLAY",
+                                                                "type": "binary",
+                                                                "quantity": 0
+                                                            },
+                                                            {
+                                                                "name": "Last Caller Barring",
+                                                                "_links": {
+                                                                    "add_purchase": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000281-C_000198-F_000333-F_000326;type=binary",
+                                                                        "method": "POST"
+                                                                    },
+                                                                    "self": {
+                                                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/LAST_CALLER_BARRING"
+                                                                    },
+                                                                    "spec": {
+                                                                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000281.C_000198.F_000333.F_000326"
+                                                                    }
+                                                                },
+                                                                "selectable": true,
+                                                                "static_id": "LAST_CALLER_BARRING",
+                                                                "type": "binary",
+                                                                "quantity": 0
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/NON_SALEABLE_PRODUCTS"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/NON_SALEABLE_PRODUCTS"
+                                },
+                                "children": [
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/EMAIL"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/TALK_UNLIMITED_USAGE_PRODUCT"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/TALK_FREETIME_USAGE_PRODUCT"
+                                    }
+                                ]
+                            },
+                            "selectable": false,
+                            "static_id": "NON_SALEABLE_PRODUCTS",
+                            "type": "non-selectable",
+                            "_embedded": {
+                                "children": [
+                                    {
+                                        "name": "Email",
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/EMAIL"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.C_000383.C_000384"
+                                            }
+                                        },
+                                        "selectable": false,
+                                        "static_id": "EMAIL",
+                                        "type": "non-selectable",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Talk Unlimited Usage Product",
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/TALK_UNLIMITED_USAGE_PRODUCT"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.C_000383.C_000400"
+                                            }
+                                        },
+                                        "selectable": false,
+                                        "static_id": "TALK_UNLIMITED_USAGE_PRODUCT",
+                                        "type": "non-selectable",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Talk Freetime Usage Product",
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/TALK_FREETIME_USAGE_PRODUCT"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.C_000383.C_000401"
+                                            }
+                                        },
+                                        "selectable": false,
+                                        "static_id": "TALK_FREETIME_USAGE_PRODUCT",
+                                        "type": "non-selectable",
+                                        "quantity": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_BROADBAND"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/SKY_BROADBAND"
+                                },
+                                "children": [
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/BROADBAND_SUBSCRIPTION"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/BROADBAND_INSTALLATION"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/BROADBAND_EQUIPMENT"
+                                    }
+                                ]
+                            },
+                            "selectable": false,
+                            "static_id": "SKY_BROADBAND",
+                            "type": "non-selectable",
+                            "_embedded": {
+                                "children": [
+                                    {
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/BROADBAND_SUBSCRIPTION"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/BROADBAND_SUBSCRIPTION"
+                                            },
+                                            "children": [
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/BROADBAND_EVERYDAY_LITE"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/FIBRE_UNLIMITED_PRO"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/BROADBAND_UNLIMITED"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/FIBRE_UNLIMITED"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/BROADBAND_CONNECT"
+                                                }
+                                            ]
+                                        },
+                                        "selectable": false,
+                                        "static_id": "BROADBAND_SUBSCRIPTION",
+                                        "type": "non-selectable",
+                                        "_embedded": {
+                                            "children": [
+                                                {
+                                                    "name": "Broadband Everyday Lite",
+                                                    "dependencies_satisfied": false,
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000199-P_000201-C_000188;type=discrete",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/BROADBAND_EVERYDAY_LITE"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000199.P_000201.C_000188"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "BROADBAND_EVERYDAY_LITE",
+                                                    "type": "discrete",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Fibre Unlimited Pro",
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000199-P_000201-C_000808;type=discrete",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/FIBRE_UNLIMITED_PRO"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000199.P_000201.C_000808"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "FIBRE_UNLIMITED_PRO",
+                                                    "type": "discrete",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Broadband Unlimited",
+                                                    "_links": {
+                                                        "remove_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000199-P_000201-C_000189;type=discrete",
+                                                            "method": "DELETE"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/BROADBAND_UNLIMITED"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000199.P_000201.C_000189"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "BROADBAND_UNLIMITED",
+                                                    "type": "discrete",
+                                                    "quantity": 1
+                                                },
+                                                {
+                                                    "name": "Fibre Unlimited",
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000199-P_000201-C_000765;type=discrete",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/FIBRE_UNLIMITED"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000199.P_000201.C_000765"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "FIBRE_UNLIMITED",
+                                                    "type": "discrete",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Broadband Connect",
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000199-P_000201-C_000190;type=discrete",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/BROADBAND_CONNECT"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000199.P_000201.C_000190"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "BROADBAND_CONNECT",
+                                                    "type": "discrete",
+                                                    "quantity": 0
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/BROADBAND_INSTALLATION"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/BROADBAND_INSTALLATION"
+                                            },
+                                            "children": [
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/FIBRE_STANDARD_INSTALLATION"
+                                                }
+                                            ]
+                                        },
+                                        "selectable": false,
+                                        "static_id": "BROADBAND_INSTALLATION",
+                                        "type": "non-selectable",
+                                        "_embedded": {
+                                            "children": [
+                                                {
+                                                    "name": "Standard Installation",
+                                                    "_links": {
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/FIBRE_STANDARD_INSTALLATION"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000199.P_000769.C_000768"
+                                                        }
+                                                    },
+                                                    "selectable": false,
+                                                    "static_id": "FIBRE_STANDARD_INSTALLATION",
+                                                    "type": "non-selectable",
+                                                    "quantity": 0
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/BROADBAND_EQUIPMENT"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/BROADBAND_EQUIPMENT"
+                                            },
+                                            "children": [
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_WIRELESS_N_ROUTER"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_WIFI_HUB2_FIBRE"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_WIRELESS_N_ADAPTER"
+                                                }
+                                            ]
+                                        },
+                                        "selectable": false,
+                                        "static_id": "BROADBAND_EQUIPMENT",
+                                        "type": "non-selectable",
+                                        "_embedded": {
+                                            "children": [
+                                                {
+                                                    "name": "Sky Wireless N Router",
+                                                    "dependencies_satisfied": true,
+                                                    "_links": {
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_WIRELESS_N_ROUTER"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000199.P_000347.C_000345"
+                                                        }
+                                                    },
+                                                    "selectable": false,
+                                                    "static_id": "SKY_WIRELESS_N_ROUTER",
+                                                    "type": "non-selectable",
+                                                    "quantity": 1
+                                                },
+                                                {
+                                                    "name": "Sky Hub 2.0",
+                                                    "dependencies_satisfied": true,
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000199-P_000347-C_001154;type=integral",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_WIFI_HUB2_FIBRE"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000199.P_000347.C_001154"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "SKY_WIFI_HUB2_FIBRE",
+                                                    "type": "integral",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Sky Wireless N Adapter",
+                                                    "dependencies_satisfied": true,
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000202-P_000199-P_000347-C_000346;type=integral",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_WIRELESS_N_ADAPTER"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000202.P_000199.P_000347.C_000346"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "SKY_WIRELESS_N_ADAPTER",
+                                                    "type": "integral",
+                                                    "quantity": 0
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_TV"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/SKY_TV"
+                    },
+                    "children": [
+                        {
+                            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/BOX_PACKAGE"
+                        },
+                        {
+                            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/CHANNEL_SUBSCRIPTION_PACKAGE"
+                        },
+                        {
+                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_3D"
+                        },
+                        {
+                            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/TV_INSTALLATION"
+                        },
+                        {
+                            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/ACCESSORIES"
+                        },
+                        {
+                            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/ADDITIONAL_SUBSCRIPTIONS"
+                        },
+                        {
+                            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/ANYTIME_PLUS_INSTALLATION"
+                        },
+                        {
+                            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/A_LA_CARTE_CHANNEL_SUBSCRIPTION_PACKAGE"
+                        }
+                    ]
+                },
+                "selectable": false,
+                "static_id": "SKY_TV",
+                "type": "non-selectable",
+                "_embedded": {
+                    "children": [
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/BOX_PACKAGE"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/BOX_PACKAGE"
+                                },
+                                "children": [
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_PLUS_HD_BOX"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_HD_BOX"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_PLUS_HD_1TB_BOX"
+                                    }
+                                ]
+                            },
+                            "selectable": false,
+                            "static_id": "BOX_PACKAGE",
+                            "type": "non-selectable",
+                            "_embedded": {
+                                "children": [
+                                    {
+                                        "name": "Sky+ HD box",
+                                        "dependencies_satisfied": true,
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000107-C_000105;type=integral",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_PLUS_HD_BOX"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000107.C_000105"
+                                            },
+                                            "remove_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000107-C_000105;type=integral",
+                                                "method": "DELETE"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "SKY_PLUS_HD_BOX",
+                                        "type": "integral",
+                                        "quantity": 1
+                                    },
+                                    {
+                                        "name": "Sky HD box",
+                                        "dependencies_satisfied": true,
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000107-C_000102;type=integral",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_HD_BOX"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000107.C_000102"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "SKY_HD_BOX",
+                                        "type": "integral",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Sky+ HD 1TB box",
+                                        "dependencies_satisfied": true,
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000107-C_000104;type=integral",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_PLUS_HD_1TB_BOX"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000107.C_000104"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "SKY_PLUS_HD_1TB_BOX",
+                                        "type": "integral",
+                                        "quantity": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/CHANNEL_SUBSCRIPTION_PACKAGE"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/CHANNEL_SUBSCRIPTION_PACKAGE"
+                                },
+                                "children": [
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/PREMIUM_PACKS"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/ENTERTAINMENT_PACKS"
+                                    }
+                                ]
+                            },
+                            "selectable": false,
+                            "static_id": "CHANNEL_SUBSCRIPTION_PACKAGE",
+                            "type": "non-selectable",
+                            "_embedded": {
+                                "children": [
+                                    {
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/PREMIUM_PACKS"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/PREMIUM_PACKS"
+                                            },
+                                            "children": [
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/SPORTS"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/MOVIES"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/MOVIES_2"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/SPORTS_1"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/SPORTS_2"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/MOVIES_1"
+                                                }
+                                            ]
+                                        },
+                                        "selectable": false,
+                                        "static_id": "PREMIUM_PACKS",
+                                        "type": "non-selectable",
+                                        "_embedded": {
+                                            "children": [
+                                                {
+                                                    "name": "Sports",
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000144-C_000155;type=binary",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/SPORTS"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000144.C_000155"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "SPORTS",
+                                                    "type": "binary",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Movies",
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000144-C_000154;type=binary",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/MOVIES"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000144.C_000154"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "MOVIES",
+                                                    "type": "binary",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Movies 2",
+                                                    "dependencies_satisfied": true,
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000144-C_000782;type=integral",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/MOVIES_2"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000144.C_000782"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "MOVIES_2",
+                                                    "type": "integral",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Sports 1",
+                                                    "dependencies_satisfied": true,
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000144-C_000779;type=integral",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/SPORTS_1"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000144.C_000779"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "SPORTS_1",
+                                                    "type": "integral",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Sports 2",
+                                                    "dependencies_satisfied": true,
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000144-C_000780;type=integral",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/SPORTS_2"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000144.C_000780"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "SPORTS_2",
+                                                    "type": "integral",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Movies 1",
+                                                    "dependencies_satisfied": true,
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000144-C_000781;type=integral",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/MOVIES_1"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000144.C_000781"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "MOVIES_1",
+                                                    "type": "integral",
+                                                    "quantity": 0
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/ENTERTAINMENT_PACKS"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/ENTERTAINMENT_PACKS"
+                                            },
+                                            "children": [
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT_EXTRA_PLUS"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT_EXTRA"
+                                                },
+                                                {
+                                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT"
+                                                }
+                                            ]
+                                        },
+                                        "selectable": false,
+                                        "static_id": "ENTERTAINMENT_PACKS",
+                                        "type": "non-selectable",
+                                        "_embedded": {
+                                            "children": [
+                                                {
+                                                    "name": "Entertainment Extra +",
+                                                    "satisfies_dependency": true,
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000143-C_000933;type=discrete",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT_EXTRA_PLUS"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000143.C_000933"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "ENTERTAINMENT_EXTRA_PLUS",
+                                                    "type": "discrete",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Entertainment Extra",
+                                                    "satisfies_dependency": true,
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000143-C_000153;type=discrete",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT_EXTRA"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000143.C_000153"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "ENTERTAINMENT_EXTRA",
+                                                    "type": "discrete",
+                                                    "quantity": 0
+                                                },
+                                                {
+                                                    "name": "Entertainment",
+                                                    "satisfies_dependency": true,
+                                                    "_links": {
+                                                        "add_purchase": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000206-C_000143-C_000151;type=discrete",
+                                                            "method": "POST"
+                                                        },
+                                                        "self": {
+                                                            "href": "$host/basket/536ca501d0457e09cb22c16e/products/ENTERTAINMENT"
+                                                        },
+                                                        "spec": {
+                                                            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000206.C_000143.C_000151"
+                                                        }
+                                                    },
+                                                    "selectable": true,
+                                                    "static_id": "ENTERTAINMENT",
+                                                    "type": "discrete",
+                                                    "quantity": 0
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "name": "Sky 3D",
+                            "dependencies_satisfied": false,
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000983-C_000165;type=discrete",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_3D"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000983.C_000165"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "SKY_3D",
+                            "type": "discrete",
+                            "quantity": 0
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/TV_INSTALLATION"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/TV_INSTALLATION"
+                                },
+                                "children": [
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/INSTALL_VISIT"
+                                    }
+                                ]
+                            },
+                            "selectable": false,
+                            "static_id": "TV_INSTALLATION",
+                            "type": "non-selectable",
+                            "_embedded": {
+                                "children": [
+                                    {
+                                        "name": "Install Visit",
+                                        "_links": {
+                                            "remove_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000172-C_000171;type=discrete",
+                                                "method": "DELETE"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/INSTALL_VISIT"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000172.C_000171"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "INSTALL_VISIT",
+                                        "type": "discrete",
+                                        "quantity": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/ACCESSORIES"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/ACCESSORIES"
+                                },
+                                "children": [
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/REMOTE_CONTROL"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/VIEWING_CARD"
+                                    }
+                                ]
+                            },
+                            "selectable": false,
+                            "static_id": "ACCESSORIES",
+                            "type": "non-selectable",
+                            "_embedded": {
+                                "children": [
+                                    {
+                                        "name": "Remote Control",
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/REMOTE_CONTROL"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000209.C_000208"
+                                            }
+                                        },
+                                        "selectable": false,
+                                        "static_id": "REMOTE_CONTROL",
+                                        "type": "non-selectable",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Viewing Card",
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/VIEWING_CARD"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000209.C_000159"
+                                            }
+                                        },
+                                        "selectable": false,
+                                        "static_id": "VIEWING_CARD",
+                                        "type": "non-selectable",
+                                        "quantity": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/ADDITIONAL_SUBSCRIPTIONS"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/ADDITIONAL_SUBSCRIPTIONS"
+                                },
+                                "children": [
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_GO_EXTRA_SUBSCRIPTION"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_PLUS_SUBSCRIPTION"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/ANYTIME_PLUS"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/HD_SUBSCRIPTION"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/HD_SUB_PREMIUM"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/EXTRA_SUBSCRIPTION"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/HD_SUB_BASIC"
+                                    }
+                                ]
+                            },
+                            "selectable": false,
+                            "static_id": "ADDITIONAL_SUBSCRIPTIONS",
+                            "type": "non-selectable",
+                            "_embedded": {
+                                "children": [
+                                    {
+                                        "name": "Sky Go Extra",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000160-C_001048;type=integral",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_GO_EXTRA_SUBSCRIPTION"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000160.C_001048"
+                                            },
+                                            "remove_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000160-C_001048;type=integral",
+                                                "method": "DELETE"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "SKY_GO_EXTRA_SUBSCRIPTION",
+                                        "type": "integral",
+                                        "quantity": 1
+                                    },
+                                    {
+                                        "name": "Sky+ Subscription",
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_PLUS_SUBSCRIPTION"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000160.C_000164"
+                                            }
+                                        },
+                                        "selectable": false,
+                                        "static_id": "SKY_PLUS_SUBSCRIPTION",
+                                        "type": "non-selectable",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Anytime+",
+                                        "dependencies_satisfied": true,
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000160-C_000418;type=integral",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/ANYTIME_PLUS"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000160.C_000418"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "ANYTIME_PLUS",
+                                        "type": "integral",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "HD Subscription",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000160-C_000162;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/HD_SUBSCRIPTION"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000160.C_000162"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "HD_SUBSCRIPTION",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "HD Premium",
+                                        "dependencies_satisfied": false,
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000160-C_000935;type=integral",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/HD_SUB_PREMIUM"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000160.C_000935"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "HD_SUB_PREMIUM",
+                                        "type": "integral",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Extra Subscription",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000160-C_000163;type=integral",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/EXTRA_SUBSCRIPTION"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000160.C_000163"
+                                            },
+                                            "remove_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000160-C_000163;type=integral",
+                                                "method": "DELETE"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "EXTRA_SUBSCRIPTION",
+                                        "type": "integral",
+                                        "quantity": 1
+                                    },
+                                    {
+                                        "name": "HD Basic",
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/HD_SUB_BASIC"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000160.C_000934"
+                                            }
+                                        },
+                                        "selectable": false,
+                                        "static_id": "HD_SUB_BASIC",
+                                        "type": "non-selectable",
+                                        "quantity": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/ANYTIME_PLUS_INSTALLATION"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/ANYTIME_PLUS_INSTALLATION"
+                                },
+                                "children": [
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/WIRED_ENGINEER_INSTALL_FOR_ANYTIME_PLUS"
+                                    }
+                                ]
+                            },
+                            "selectable": false,
+                            "static_id": "ANYTIME_PLUS_INSTALLATION",
+                            "type": "non-selectable",
+                            "_embedded": {
+                                "children": [
+                                    {
+                                        "name": "Wired Engineer Install for Anytime+",
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/WIRED_ENGINEER_INSTALL_FOR_ANYTIME_PLUS"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000422.C_000421"
+                                            }
+                                        },
+                                        "selectable": false,
+                                        "static_id": "WIRED_ENGINEER_INSTALL_FOR_ANYTIME_PLUS",
+                                        "type": "non-selectable",
+                                        "quantity": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_links": {
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/A_LA_CARTE_CHANNEL_SUBSCRIPTION_PACKAGE"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/A_LA_CARTE_CHANNEL_SUBSCRIPTION_PACKAGE"
+                                },
+                                "children": [
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/MGM_HD"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/CHELSEA_TV"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/ESPN"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_SPORTS_XTRA"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_MOVIES_PREMIERE"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/MUTV"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_SPORTS_3"
+                                    },
+                                    {
+                                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/DISNEY_CINEMAGIC"
+                                    }
+                                ]
+                            },
+                            "selectable": false,
+                            "static_id": "A_LA_CARTE_CHANNEL_SUBSCRIPTION_PACKAGE",
+                            "type": "non-selectable",
+                            "_embedded": {
+                                "children": [
+                                    {
+                                        "name": "MGM HD",
+                                        "dependencies_satisfied": false,
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000136;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/MGM_HD"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000136"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "MGM_HD",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Chelsea TV",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000134;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/CHELSEA_TV"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000134"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "CHELSEA_TV",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "ESPN",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000132;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/ESPN"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000132"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "ESPN",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Sky Sports Xtra",
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_SPORTS_XTRA"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000175"
+                                            }
+                                        },
+                                        "selectable": false,
+                                        "static_id": "SKY_SPORTS_XTRA",
+                                        "type": "non-selectable",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Sky Movies Premiere",
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_MOVIES_PREMIERE"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000271"
+                                            }
+                                        },
+                                        "selectable": false,
+                                        "static_id": "SKY_MOVIES_PREMIERE",
+                                        "type": "non-selectable",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "MUTV",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000133;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/MUTV"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000133"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "MUTV",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Sky Sports 3",
+                                        "_links": {
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_SPORTS_3"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000174"
+                                            }
+                                        },
+                                        "selectable": false,
+                                        "static_id": "SKY_SPORTS_3",
+                                        "type": "non-selectable",
+                                        "quantity": 0
+                                    },
+                                    {
+                                        "name": "Disney Cinemagic",
+                                        "_links": {
+                                            "add_purchase": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000135;type=binary",
+                                                "method": "POST"
+                                            },
+                                            "self": {
+                                                "href": "$host/basket/536ca501d0457e09cb22c16e/products/DISNEY_CINEMAGIC"
+                                            },
+                                            "spec": {
+                                                "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000135"
+                                            }
+                                        },
+                                        "selectable": true,
+                                        "static_id": "DISNEY_CINEMAGIC",
+                                        "type": "binary",
+                                        "quantity": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_DEFAULT"
+        },
+        "spec": {
+            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06"
+        },
+        "children": [
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_TALK_AND_BB_PACKAGE"
+            },
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_TV"
+            }
+        ]
+    },
+    "selectable": false,
+    "static_id": "SKY_DEFAULT",
+    "type": "non-selectable",
+    "id": "536ca501d0457e09cb22c16e"
+}

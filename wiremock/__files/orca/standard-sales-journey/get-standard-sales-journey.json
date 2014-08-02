@@ -1,0 +1,15 @@
+{
+    "_links": {
+        "orca:self": {
+            "href": "$host/stubs/orca/standard-sales-journey/000001"
+        },
+        "orca:dn-check": {
+            "templated": true,
+            "href": "$host/stubs/orca/standard_sales_journey/000001/dn-check?directory_number={directory_number}"
+        },
+        "orca:create-basket": {
+            "method": "POST",
+            "href": "$host/stubs/orca/standard_sales_journey/000001/basket"
+        }
+    }
+}

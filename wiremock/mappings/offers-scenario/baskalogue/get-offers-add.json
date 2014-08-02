@@ -1,0 +1,16 @@
+{
+    "description": "Baskalogue get basket offers added",
+    "scenarioName": "Offers Scenario",
+    "requiredScenarioState": "Started",
+    "newScenarioState": "Added Offers",
+
+    "request": {
+        "method": "POST",
+        "url": "/baskalogue/basket/536ca501d0457e09cb22c16e/offer;action=target;path=B_000109-P_000576-OF_001117;type=binary"
+    },
+    "response": {
+        "status": 204
+
+    }
+}
+

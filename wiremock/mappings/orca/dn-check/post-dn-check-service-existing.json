@@ -1,0 +1,12 @@
+{
+    "description": "ERROR the dn-check return a service-existing",
+    "request": {
+        "method": "GET",
+        "urlPattern": "/orca/standard_sales_journey/000001/dn-check\\?directory_number=02078906666"
+    },
+    "response": {
+        "status": 404,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "orca/standard-sales-journey/dn-check-service-existing.json"
+    }
+}

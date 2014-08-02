@@ -1,0 +1,13 @@
+{
+    "scenarioName": "Sky Line Rental",
+    "requiredScenarioState": "Product added",
+    "newScenarioState": "Started",
+    "description": "Orca journey manager root",
+    "request": {
+        "method": "DELETE",
+        "url": "/baskalogue/basket/536ca501d0457e09cb22c16e/products;action=target;path=B_000109-P_000202-P_000281-C_000198;type=binary"
+    },
+    "response": {
+        "status": 204
+    }
+}

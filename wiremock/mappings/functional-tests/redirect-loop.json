@@ -1,0 +1,11 @@
+{
+    "description": "Functional test redirect loop",
+    "request": {
+        "method": "GET",
+        "url": "/functional-tests/redirect-loop"
+    },
+    "response": {
+        "status": 201,
+        "headers": { "Location": "$host/stubs/functional-tests/redirect-loop" }
+    }
+}

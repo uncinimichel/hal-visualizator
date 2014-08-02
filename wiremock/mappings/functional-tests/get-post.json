@@ -1,0 +1,15 @@
+{
+    "description": "Functional test get-thing with id 1234",
+    "request": {
+        "method": "POST",
+        "url": "/functional-tests/do-post",
+        "bodyPatterns": [
+            { "equalTo": "{\"test\":\"some test data\"}" }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "functional-tests/get-thing-1234.json"
+    }
+}

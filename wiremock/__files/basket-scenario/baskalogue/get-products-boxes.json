@@ -1,0 +1,92 @@
+{
+    "_links": {
+        "self": {
+            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/BOX_PACKAGE"
+        },
+        "spec": {
+            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/BOX_PACKAGE"
+        },
+        "children": [
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_PLUS_HD_BOX"
+            },
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_HD_BOX"
+            },
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_PLUS_HD_1TB_BOX"
+            }
+        ]
+    },
+    "selectable": false,
+    "static_id": "BOX_PACKAGE",
+    "type": "non-selectable",
+    "_embedded": {
+        "children": [
+            {
+                "name": "Sky+ HD box",
+                "dependencies_satisfied": true,
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000107-C_000105;type=integral",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_PLUS_HD_BOX"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000107.C_000105"
+                    },
+                    "remove_purchase": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000107-C_000105;type=integral",
+                        "method": "DELETE"
+                    }
+                },
+                "selectable": true,
+                "static_id": "SKY_PLUS_HD_BOX",
+                "type": "integral",
+                "quantity": 1
+            },
+            {
+                "name": "Sky HD box",
+                "dependencies_satisfied": true,
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000107-C_000102;type=integral",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_HD_BOX"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000107.C_000102"
+                    }
+                },
+                "selectable": false,
+                "static_id": "SKY_HD_BOX",
+                "type": "integral",
+                "quantity": 24
+            },
+            {
+                "name": "Sky+ HD 1TB box",
+                "dependencies_satisfied": true,
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000107-C_000104;type=integral",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_PLUS_HD_1TB_BOX"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000107.C_000104"
+                    }
+                },
+                "selectable": false,
+                "static_id": "SKY_PLUS_HD_1TB_BOX",
+                "type": "integral",
+                "quantity": 0
+            }
+        ]
+    }
+}

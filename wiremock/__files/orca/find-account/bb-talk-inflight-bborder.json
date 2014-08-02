@@ -1,0 +1,41 @@
+{
+    "_warnings": [
+        {
+            "orca:standard-sales-journey": {
+                "hasNoOrdersInProgress": "false"
+            }
+        }
+    ],
+    "standard": true,
+    "installationDirectoryNumber": "02078901001",
+    "_links": {
+        "installationAddress": [],
+        "self": {
+            "href": "http://localhost:8090/orca/webapi/find_account?party_id=11111111111111111111023"
+        }
+    },
+    "active": true,
+    "_embedded": {
+        "installationAddress": {
+            "expandedAddress": {
+                "subBuildingNumber": "Flat 133",
+                "houseName": "Dugdale Court",
+                "county": "Surrey",
+                "street": "Church Langley Way",
+                "subBuildingName": "",
+                "countryCode": "GBR",
+                "locality": "rarely-used",
+                "houseNumber": "",
+                "town": "Guildford",
+                "dpSuffix": "9W",
+                "validated": true,
+                "postcode": "EH8 8BA"
+            },
+            "addressLine4": "Surrey",
+            "postcode": "EH8 8BA",
+            "addressLine3": "Guildford",
+            "addressLine2": "Church Langley Way",
+            "addressLine1": "Flat 133, Dugdale Court"
+        }
+    }
+}

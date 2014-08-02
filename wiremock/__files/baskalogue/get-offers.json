@@ -1,0 +1,539 @@
+{
+    "_embedded": {
+        "offer": [
+            {
+                "_embedded": {
+                    "choices": [
+                        {
+                            "display_name": "£75 Boots Voucher",
+                            "path_str": "B_000109.P_000576.OF_001117.D_001055",
+                            "choice_type": "reward",
+                            "name": "£75 Boots Voucher",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer_item;path=B_000109-P_000576-OF_001117;implementation_id=VCH_BOOTS_75_GBP",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000576.OF_001117.D_001055"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/reward/B_000109.P_000576.OF_001117.D_001055"
+                                }
+                            },
+                            "static_id": "VCH_BOOTS_75_GBP",
+                            "quantity": 0
+                        },
+                        {
+                            "display_name": "£75 John Lewis Voucher",
+                            "path_str": "B_000109.P_000576.OF_001117.D_001054",
+                            "choice_type": "reward",
+                            "name": "£75 John Lewis Voucher",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer_item;path=B_000109-P_000576-OF_001117;implementation_id=VCH_JOHNLEWIS_75_GBP",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000576.OF_001117.D_001054"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/reward/B_000109.P_000576.OF_001117.D_001054"
+                                }
+                            },
+                            "static_id": "VCH_JOHNLEWIS_75_GBP",
+                            "quantity": 0
+                        },
+                        {
+                            "display_name": "£75 Tesco Voucher",
+                            "path_str": "B_000109.P_000576.OF_001117.D_001053",
+                            "choice_type": "reward",
+                            "name": "£75 Tesco Voucher",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer_item;path=B_000109-P_000576-OF_001117;implementation_id=VCH_TESCO_75_GBP",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000576.OF_001117.D_001053"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/reward/B_000109.P_000576.OF_001117.D_001053"
+                                }
+                            },
+                            "static_id": "VCH_TESCO_75_GBP",
+                            "quantity": 0
+                        },
+                        {
+                            "display_name": "£75 Marks and Spencer eVoucher",
+                            "path_str": "B_000109.P_000576.OF_001117.D_001052",
+                            "choice_type": "reward",
+                            "name": "£75 Marks and Spencer eVoucher",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer_item;path=B_000109-P_000576-OF_001117;implementation_id=EVCH_75_GBP",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000576.OF_001117.D_001052"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/reward/B_000109.P_000576.OF_001117.D_001052"
+                                }
+                            },
+                            "static_id": "EVCH_75_GBP",
+                            "quantity": 0
+                        },
+                        {
+                            "display_name": "None of the above",
+                            "choice_type": "declined",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/decline_choice;path=B_000109-P_000576-OF_001117",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/declined/B_000109.P_000576.OF_001117"
+                                }
+                            },
+                            "quantity": 0
+                        }
+                    ]
+                },
+                "name": "Multiple Rewards 75/75 - No Prop Code",
+                "classification": "Covert",
+                "implementation_declined_uri": "Offer/OF_001117/ImplementationDeclined",
+                "dependencies_met": true,
+                "implementation_action": "requires_one_or_none",
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer;action=target;path=B_000109-P_000576-OF_001117;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000576-OF_001117"
+                    },
+                    "spec": {
+                        "href": "$host/api/catalogue/retail/2014-07-02/offer/B_000109.P_000576.OF_001117"
+                    },
+                    "choices": [
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000576.OF_001117.D_001055"
+                        },
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000576.OF_001117.D_001054"
+                        },
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000576.OF_001117.D_001053"
+                        },
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000576.OF_001117.D_001052"
+                        },
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/declined/B_000109.P_000576.OF_001117"
+                        }
+                    ]
+                },
+                "implementation_uri": "Offer/OF_001117/ImplementationId",
+                "selectable": true,
+                "type": "binary",
+                "id": "B_000109.P_000576.OF_001117",
+                "quantity": 0
+            },
+            {
+                "_embedded": {
+                    "choices": [
+                        {
+                            "display_name": "25GBP Credit",
+                            "path_str": "B_000109.P_000576.OF_000628.D_000600",
+                            "choice_type": "credit",
+                            "name": "25GBP Credit",
+                            "_links": {
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/credit/B_000109.P_000576.OF_000628.D_000600"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/credit/B_000109.P_000576.OF_000628.D_000600"
+                                }
+                            },
+                            "quantity": 0
+                        }
+
+                    ]
+                },
+                "name": "Test Auto ANY-Exists Product Dependencies Credit Offer",
+                "classification": "Overt",
+                "dependencies_met": false,
+                "_links": {
+                    "self": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000576-OF_000628"
+                    },
+                    "spec": {
+                        "href": "$host/api/catalogue/retail/2014-07-02/offer/B_000109.P_000576.OF_000628"
+                    },
+                    "choices": [
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/credit/B_000109.P_000576.OF_000628.D_000600"
+                        }
+                    ]
+                },
+                "selectable": false,
+                "type": "non-selectable",
+                "id": "B_000109.P_000576.OF_000628",
+                "quantity": 0
+            },
+            {
+                "_embedded": {
+                    "choices": [
+                        {
+                            "display_name": "Free Sky Go Extra",
+                            "path_str": "B_000109.P_000252.OF_001049.D_001050",
+                            "choice_type": "discount",
+                            "name": "100% off Sky Go Extra",
+                            "_links": {
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/discount/B_000109.P_000252.OF_001049.D_001050"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/discount/B_000109.P_000252.OF_001049.D_001050"
+                                }
+                            },
+                            "static_id": "FREE_SGE",
+                            "quantity": 0
+                        }
+                    ]
+                },
+                "name": "Sky Go Extra Free with Multiroom",
+                "classification": "Overt",
+                "dependencies_met": true,
+                "_links": {
+                    "self": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000252-OF_001049"
+                    },
+                    "spec": {
+                        "href": "$host/api/catalogue/retail/2014-07-02/offer/B_000109.P_000252.OF_001049"
+                    },
+                    "choices": [
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/discount/B_000109.P_000252.OF_001049.D_001050"
+                        }
+                    ]
+                },
+                "selectable": false,
+                "type": "non-selectable",
+                "id": "B_000109.P_000252.OF_001049",
+                "quantity": 1
+            },
+            {
+                "_embedded": {
+                    "choices": [
+                        {
+                            "display_name": "choice1",
+                            "path_str": "B_000109.P_000576.OF_001117.D_001052",
+                            "choice_type": "reward",
+                            "name": "£75 Marks and Spencer eVoucher",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer_item;path=B_000109-P_000576-OF_001117;implementation_id=EVCH_75_GBP",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000576.OF_001117.D_001052"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/reward/B_000109.P_000576.OF_001117.D_001052"
+                                }
+                            },
+                            "static_id": "EVCH_75_GBP",
+                            "quantity": 0
+                        },
+                        {
+                            "display_name": "None of the above",
+                            "choice_type": "declined",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/decline_choice;path=B_000109-P_000576-OF_001117",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/declined/B_000109.P_000576.OF_001117"
+                                }
+                            },
+                            "quantity": 0
+                        }
+                    ]
+                },
+                "name": "Dummy Offer",
+                "classification": "Overt",
+                "dependencies_met": true,
+                "_links": {
+                    "self": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000252-OF_001049"
+                    },
+                    "spec": {
+                        "href": "$host/api/catalogue/retail/2014-07-02/offer/B_000109.P_000252.OF_001049"
+                    },
+                    "choices": [
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/discount/B_000109.P_000252.OF_001049.D_001050"
+                        }
+                    ]
+                },
+                "selectable": false,
+                "type": "non-selectable",
+                "id": "B_000109.P_000252.OF_001049",
+                "quantity": 1
+            },
+            {
+                "_embedded": {
+                    "choices": [
+                        {
+                            "display_name": "5 pounds off TV Packs",
+                            "path_str": "B_000109.P_000252.OF_000775.D_000772",
+                            "choice_type": "discount",
+                            "name": "5 pounds off TV Packs",
+                            "_links": {
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/discount/B_000109.P_000252.OF_000775.D_000772"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/discount/B_000109.P_000252.OF_000775.D_000772"
+                                }
+                            },
+                            "static_id": "5_OFF_DTV_DISCOUNT",
+                            "quantity": 0
+                        },
+                        {
+                            "display_name": "20 Marks & Spencer Voucher",
+                            "path_str": "B_000109.P_000252.OF_000775.D_000774",
+                            "choice_type": "reward",
+                            "name": "20 Marks & Spencer Voucher",
+                            "_links": {
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000252.OF_000775.D_000774"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/reward/B_000109.P_000252.OF_000775.D_000774"
+                                }
+                            },
+                            "static_id": "20_MS_VOUCHER",
+                            "quantity": 0
+                        },
+                        {
+                            "display_name": "Credit 10 GBP",
+                            "path_str": "B_000109.P_000252.OF_000775.D_000773",
+                            "choice_type": "credit",
+                            "name": "Credit 10 GBP",
+                            "_links": {
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/credit/B_000109.P_000252.OF_000775.D_000773"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/credit/B_000109.P_000252.OF_000775.D_000773"
+                                }
+                            },
+                            "static_id": "10_CREDIT",
+                            "quantity": 0
+                        }
+                    ]
+                },
+                "name": "Test Manual - Static ID",
+                "classification": "Covert",
+                "dependencies_met": true,
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer;action=target;path=B_000109-P_000252-OF_000775;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000252-OF_000775"
+                    },
+                    "spec": {
+                        "href": "$host/api/catalogue/retail/2014-07-02/offer/B_000109.P_000252.OF_000775"
+                    },
+                    "choices": [
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/discount/B_000109.P_000252.OF_000775.D_000772"
+                        },
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000252.OF_000775.D_000774"
+                        },
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/credit/B_000109.P_000252.OF_000775.D_000773"
+                        }
+                    ]
+                },
+                "selectable": true,
+                "type": "binary",
+                "id": "B_000109.P_000252.OF_000775",
+                "quantity": 0
+            },
+            {
+                "_embedded": {
+                    "choices": [
+                        {
+                            "display_name": "200GBP Marks and Spencer eVoucher",
+                            "path_str": "B_000109.P_000252.OF_000975.D_000973",
+                            "choice_type": "reward",
+                            "name": "200GBP Marks and Spencer eVoucher",
+                            "_links": {
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000252.OF_000975.D_000973"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/reward/B_000109.P_000252.OF_000975.D_000973"
+                                }
+                            },
+                            "static_id": "200GBP_MNS_EVOUCHER",
+                            "quantity": 0
+                        }
+                    ]
+                },
+                "name": "200GBP M&S eVoucher Offer",
+                "classification": "Covert",
+                "dependencies_met": true,
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer;action=target;path=B_000109-P_000252-OF_000975;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000252-OF_000975"
+                    },
+                    "spec": {
+                        "href": "$host/api/catalogue/retail/2014-07-02/offer/B_000109.P_000252.OF_000975"
+                    },
+                    "choices": [
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/reward/B_000109.P_000252.OF_000975.D_000973"
+                        }
+                    ]
+                },
+                "selectable": true,
+                "type": "binary",
+                "id": "B_000109.P_000252.OF_000975",
+                "quantity": 0
+            },
+            {
+                "_embedded": {
+                    "choices": [
+                        {
+                            "display_name": "10GBP Credit",
+                            "path_str": "B_000109.P_000403.OF_000809.D_000461",
+                            "choice_type": "credit",
+                            "name": "10GBP Credit",
+                            "_links": {
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/credit/B_000109.P_000403.OF_000809.D_000461"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/credit/B_000109.P_000403.OF_000809.D_000461"
+                                }
+                            },
+                            "static_id": "10_CREDIT",
+                            "quantity": 0
+                        }
+                    ]
+                },
+                "name": "£10 Credit where Proposition is not Christmas",
+                "classification": "Covert",
+                "dependencies_met": true,
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer;action=target;path=B_000109-P_000403-OF_000809;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000403-OF_000809"
+                    },
+                    "spec": {
+                        "href": "$host/api/catalogue/retail/2014-07-02/offer/B_000109.P_000403.OF_000809"
+                    },
+                    "choices": [
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/credit/B_000109.P_000403.OF_000809.D_000461"
+                        }
+                    ]
+                },
+                "selectable": true,
+                "type": "binary",
+                "id": "B_000109.P_000403.OF_000809",
+                "quantity": 0
+            },
+            {
+                "_embedded": {
+                    "choices": [
+                        {
+                            "display_name": "Free Sky+ HD 1TB Box",
+                            "path_str": "B_000109.P_000252.OF_000981.D_000982",
+                            "choice_type": "discount",
+                            "name": "Free Sky+ HD 1TB Box",
+                            "_links": {
+                                "self": {
+                                    "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/discount/B_000109.P_000252.OF_000981.D_000982"
+                                },
+                                "spec": {
+                                    "href": "$host/api/catalogue/retail/2014-07-02/discount/B_000109.P_000252.OF_000981.D_000982"
+                                }
+                            },
+                            "quantity": 0
+                        }
+                    ]
+                },
+                "name": "Free Any Sky+ HD 1TB Box",
+                "classification": "Covert",
+                "dependencies_met": true,
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer;action=target;path=B_000109-P_000252-OF_000981;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000252-OF_000981"
+                    },
+                    "spec": {
+                        "href": "$host/api/catalogue/retail/2014-07-02/offer/B_000109.P_000252.OF_000981"
+                    },
+                    "choices": [
+                        {
+                            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/discount/B_000109.P_000252.OF_000981.D_000982"
+                        }
+                    ]
+                },
+                "selectable": true,
+                "type": "binary",
+                "id": "B_000109.P_000252.OF_000981",
+                "quantity": 0
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offers"
+        },
+        "offer": [
+            {
+                "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000576-OF_001117"
+            },
+            {
+                "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000576-OF_000628"
+            },
+            {
+                "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000252-OF_001049"
+            },
+            {
+                "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000252-OF_000775"
+            },
+            {
+                "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000252-OF_000975"
+            },
+            {
+                "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000403-OF_000809"
+            },
+            {
+                "href": "$host/stubs/baskalogue/basket/536ca501d0457e09cb22c16e/offer/B_000109-P_000252-OF_000981"
+            }
+
+        ]
+    }
+}

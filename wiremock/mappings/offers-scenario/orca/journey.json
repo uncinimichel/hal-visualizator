@@ -1,0 +1,12 @@
+{
+    "description": "Basket scenario journey",
+    "request": {
+        "method": "GET",
+        "url": "/orca/standard-sales-journey/OFFERSSCENARIO"
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "basket-scenario/orca/journey.json"
+    }
+}

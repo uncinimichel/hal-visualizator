@@ -1,0 +1,12 @@
+{
+    "description": "Functional test get-thing with id 1234",
+    "request": {
+        "method": "GET",
+        "url": "/functional-tests/get-thing/1234"
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "functional-tests/get-thing-1234.json"
+    }
+}

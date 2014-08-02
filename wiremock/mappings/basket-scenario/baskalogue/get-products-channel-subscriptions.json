@@ -1,0 +1,14 @@
+{
+    "description": "Baskalogue products - channel subscriptions",
+    "request": {
+        "method": "GET",
+        "url": "/baskalogue/basket/536ca501d0457e09cb22c16e/baskalogue/A_LA_CARTE_CHANNEL_SUBSCRIPTION_PACKAGE"
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json",
+                      "cache-control": "no-cache" },
+        "bodyFileName": "basket-scenario/baskalogue/get-products-channel-subscriptions.json"
+    }
+}
+

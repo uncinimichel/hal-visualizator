@@ -1,0 +1,12 @@
+{
+    "description": "Orca journey manager root",
+    "request": {
+        "method": "GET",
+        "url": "/orca/"
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "orca/root.json"
+    }
+}

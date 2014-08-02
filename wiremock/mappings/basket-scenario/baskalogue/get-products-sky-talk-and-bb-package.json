@@ -1,0 +1,16 @@
+{
+    "description": "Orca journey manager root",
+    "request": {
+        "method": "GET",
+        "url": "/baskalogue/basket/536ca501d0457e09cb22c16e/baskalogue/SKY_TALK_AND_BB"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/hal+json",
+            "cache-control": "no-cache"
+        },
+        "bodyFileName": "basket-scenario/baskalogue/get-products-sky-talk-and-bb-package.json"
+    }
+}
+

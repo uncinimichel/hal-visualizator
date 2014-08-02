@@ -1,0 +1,15 @@
+{
+    "scenarioName": "Sky Broadband",
+    "requiredScenarioState": "Started",
+    "description": "Orca journey manager root",
+    "request": {
+        "method": "GET",
+        "url": "/baskalogue/basket/536ca501d0457e09cb22c16e/charges"
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "basket-scenario/baskalogue/get-charges.json"
+    }
+}
+

@@ -1,0 +1,14 @@
+{
+    "scenarioName": "Sky Broadband",
+    "requiredScenarioState": "Started",
+    "newScenarioState": "Product added",
+    "description": "Orca journey manager root",
+    "request": {
+        "method": "POST",
+        "url": "/baskalogue/basket/538c4235ff58f06efb66f238/products;action=target;path=B_000109-P_000202-P_000199-P_000201-C_000188;type=discrete"
+    },
+    "response": {
+        "status": 204
+    }
+}
+

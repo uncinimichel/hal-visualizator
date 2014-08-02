@@ -1,0 +1,12 @@
+{
+    "_links": {
+        "orca:create-basket": {
+            "href": "$host/stubs/orca/create-basket",
+            "templated": false
+        },
+        "self": {
+            "href": "$host/stubs/orca/get-something"
+        }
+    },
+    "data": "this is something"
+}

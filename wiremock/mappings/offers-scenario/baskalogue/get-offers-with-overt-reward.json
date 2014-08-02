@@ -1,0 +1,15 @@
+{
+    "description": "Baskalogue get basket offers with 50% off ESPN selected",
+    "scenarioName": "Offers Scenario",
+    "requiredScenarioState": "Overt reward",
+
+    "request": {
+        "method": "GET",
+        "urlPattern": "/baskalogue/basket/536ca501d0457e09cb22c16e/offers"
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "offers-scenario/baskalogue/get-offers-with-overt-reward.json"
+    }
+}

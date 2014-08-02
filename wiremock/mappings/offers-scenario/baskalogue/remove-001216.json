@@ -1,0 +1,13 @@
+{
+    "description": "Offers scenario - remove OF_001216",
+    "scenarioName": "Offers Scenario",
+    "newScenarioState": "Started",
+
+    "request": {
+        "method": "DELETE",
+        "url": "/baskalogue/basket/538457bafcb82e419049efbe/offer;action=target;path=B_000109.P_000576.OF_001216;type=binary"
+    },
+    "response": {
+        "status": 204
+    }
+}

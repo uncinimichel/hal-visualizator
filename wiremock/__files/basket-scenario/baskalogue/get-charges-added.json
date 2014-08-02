@@ -1,0 +1,68 @@
+{
+    "_links": {
+        "self": {
+            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/charges"
+        }
+
+    },
+    "charges": {
+        "recurring": {
+            "discounted": {
+                "name": "Discounted recurring",
+                "amount": "25.00"
+            },
+            "nonDiscounted": {
+                "name": "Ongoing recurring",
+                "amount": "50.00"
+            },
+            "items": [
+                {
+                    "name": "Sky Go",
+                    "amount": "0.00"
+                },
+                {
+                    "name": "Channel Subscription Package",
+                    "amount": "21.50"
+                }
+            ]
+        },
+        "nonRecurring": {
+            "upfront": {
+                "discounted": {
+                    "name": "One-off payment",
+                    "amount": "25.00"
+                },
+                "nonDiscounted": {
+                    "name": "One-off payment",
+                    "amount": "25.00"
+                },
+                "items": [
+                    {
+                        "name": "Sky+HDw",
+                        "amount": "0.00"
+                    },
+                    {
+                        "name": "Install Visit",
+                        "amount": "25.00"
+                    }
+                ]
+            },
+            "nextBill": {
+                "discounted": {
+                    "name": "One-off on next bill",
+                    "amount": "6.95"
+                },
+                "nonDiscounted": {
+                    "name": "One-off on next bill",
+                    "amount": "6.95"
+                },
+                "items": [
+                    {
+                        "name": "Router delivery",
+                        "amount": "6.95"
+                    }
+                ]
+            }
+        }
+    }
+}

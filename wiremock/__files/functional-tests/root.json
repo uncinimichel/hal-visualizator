@@ -1,0 +1,30 @@
+{
+    "_links": {
+        "test:get-redirecting-thing": {
+            "href": "$host/stubs/functional-tests/do-redirect",
+            "templated": false
+        },
+        "test:get-info": {
+            "href": "$host/stubs/functional-tests/get-info",
+            "templated": false
+        },
+        "test:get-templated": {
+            "href": "$host/stubs/functional-tests/get-thing/{thingId}"
+        },
+        "test:redirect-loop" : {
+            "href": "$host/stubs/functional-tests/redirect-loop"
+        },
+        "test:get-thing-array": [
+            {
+                "href": "$host/stubs/functional-tests/get-thing/1234"
+            }
+        ],
+        "test:do-post": {
+            "href": "$host/stubs/functional-tests/do-post",
+            "method": "POST"
+        },
+        "self": {
+            "href": "$host/functional-tests/"
+        }
+    }
+}

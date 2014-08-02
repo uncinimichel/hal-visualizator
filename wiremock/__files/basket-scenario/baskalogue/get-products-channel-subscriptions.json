@@ -1,0 +1,248 @@
+{
+    "_links": {
+        "self": {
+            "href": "$host/basket/536ca501d0457e09cb22c16e/baskalogue/A_LA_CARTE_CHANNEL_SUBSCRIPTION_PACKAGE"
+        },
+        "spec": {
+            "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/static_id/A_LA_CARTE_CHANNEL_SUBSCRIPTION_PACKAGE"
+        },
+        "children": [
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/MGM_HD"
+            },
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/CHELSEA_TV"
+            },
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/ESPN"
+            },
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_SPORTS_XTRA"
+            },
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_MOVIES_PREMIERE"
+            },
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/MUTV"
+            },
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_SPORTS_3"
+            },
+            {
+                "href": "$host/basket/536ca501d0457e09cb22c16e/products/DISNEY_CINEMAGIC"
+            }
+        ]
+    },
+    "selectable": false,
+    "static_id": "A_LA_CARTE_CHANNEL_SUBSCRIPTION_PACKAGE",
+    "type": "non-selectable",
+    "_embedded": {
+        "children": [
+            {
+                "name": "MGM HD",
+                "dependencies_satisfied": false,
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000136;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/MGM_HD"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000136"
+                    }
+                },
+                "selectable": true,
+                "static_id": "MGM_HD",
+                "type": "binary",
+                "quantity": 0
+            },
+            {
+                "name": "Chelsea TV",
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000134;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/CHELSEA_TV"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000134"
+                    }
+                },
+                "selectable": true,
+                "static_id": "CHELSEA_TV",
+                "type": "binary",
+                "quantity": 0
+            },
+            {
+                "name": "ESPN",
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000132;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/ESPN"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000132"
+                    }
+                },
+                "selectable": false,
+                "static_id": "ESPN",
+                "type": "binary",
+                "quantity": 0
+            },
+            {
+                "name": "Sky Sports Xtra",
+                "_links": {
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_SPORTS_XTRA"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000175"
+                    }
+                },
+                "selectable": false,
+                "static_id": "SKY_SPORTS_XTRA",
+                "type": "non-selectable",
+                "quantity": 0
+            },
+            {
+                "name": "Sky Movies Premiere",
+                "_links": {
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_MOVIES_PREMIERE"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000271"
+                    }
+                },
+                "selectable": false,
+                "static_id": "SKY_MOVIES_PREMIERE",
+                "type": "non-selectable",
+                "_embedded": {
+                    "children": [
+                        {
+                            "name": "Viva Italia",
+                            "dependencies_satisfied": false,
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000136;type=binary",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/MGM_HD"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000136"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "Viva_Italia",
+                            "type": "binary",
+                            "quantity": 0
+                        },
+                        {
+                            "name": "Italian wine Rocks",
+                            "dependencies_satisfied": false,
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000136;type=binary",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/MGM_HD"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000136"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "Italian_wine_Rocks",
+                            "type": "binary",
+                            "quantity": 0
+                        },
+                        {
+                            "name": "Salami movie",
+                            "dependencies_satisfied": false,
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000136;type=binary",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "$host/basket/536ca501d0457e09cb22c16e/products/MGM_HD"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000136"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "Salami_movie",
+                            "type": "binary",
+                            "quantity": 0
+                        }
+                    ]
+                },
+                "quantity": 0
+            },
+            {
+                "name": "MUTV ask Peter to style when non selectable and quantity 1",
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000133;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/MUTV"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000133"
+                    }
+                },
+                "selectable": false,
+                "static_id": "MUTV",
+                "type": "binary",
+                "quantity": 1
+            },
+            {
+                "name": "Sky Sports 3",
+                "_links": {
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/SKY_SPORTS_3"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000174"
+                    }
+                },
+                "selectable": false,
+                "static_id": "SKY_SPORTS_3",
+                "type": "non-selectable",
+                "quantity": 0
+            },
+            {
+                "name": "Disney Cinemagic",
+                "_links": {
+                    "add_purchase": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products;action=purchase;path=B_000109-P_000108-P_000142-C_000135;type=binary",
+                        "method": "POST"
+                    },
+                    "self": {
+                        "href": "$host/basket/536ca501d0457e09cb22c16e/products/DISNEY_CINEMAGIC"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:8089/api/catalogue/direct/2014-05-06/product/B_000109.P_000108.P_000142.C_000135"
+                    }
+                },
+                "selectable": true,
+                "static_id": "DISNEY_CINEMAGIC",
+                "type": "binary",
+                "quantity": 1
+            }
+        ]
+    }
+}

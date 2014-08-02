@@ -1,0 +1,11 @@
+{
+    "_links": {
+        "orca:self": {
+            "href": "$host/stubs/orca/standard-sales-journey/000009"
+        },
+        "orca:create-basket": {
+            "method": "POST",
+            "href": "$host/stubs/orca/standard_sales_journey/000009/basket"
+        }
+    }
+}

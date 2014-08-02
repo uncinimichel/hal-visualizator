@@ -1,0 +1,15 @@
+{
+    "description": "Baskalogue root",
+    "priority": 1,
+    "scenarioName": "Test",
+    "requiredScenarioState": "DoingThis",
+    "request": {
+        "method": "GET",
+        "urlPattern": "/baskalogue/"
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "baskalogue/root1.json"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "description": "Orca journey manager create standard-sales-journey",
+    "request": {
+        "method": "POST",
+        "url": "/orca/standard_sales_journey?party_id=11111111111111111111119"
+    },
+    "response": {
+        "status": 201,
+        "headers": {
+            "Location": "$host/stubs/orca/standard-sales-journey/000009"
+        }
+    }
+}

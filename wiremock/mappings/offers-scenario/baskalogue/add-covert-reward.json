@@ -1,0 +1,13 @@
+{
+    "description": "Offers scenario - add covert reward",
+    "scenarioName": "Offers Scenario",
+    "newScenarioState": "Covert reward",
+
+    "request": {
+        "method": "POST",
+        "url": "/baskalogue/basket/53b12998ff58f06fc91d5d61/offer_item;path=B_000109-P_000576-OF_001117;implementation_id=VCH_BOOTS_75_GBP"
+    },
+    "response": {
+        "status": 204
+    }
+}

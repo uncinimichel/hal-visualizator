@@ -1,0 +1,276 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/baskalogue/SKY_BROADBAND"
+        },
+        "spec": {
+            "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product_catalogue/SKY_BROADBAND"
+        },
+        "children": [
+            {
+                "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/baskalogue/BROADBAND_SUBSCRIPTION"
+            },
+            {
+                "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/baskalogue/BROADBAND_INSTALLATION"
+            },
+            {
+                "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/baskalogue/BROADBAND_EQUIPMENT"
+            }
+        ]
+    },
+    "selectable": false,
+    "static_id": "SKY_BROADBAND",
+    "type": "non-selectable",
+    "_embedded": {
+        "children": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/baskalogue/BROADBAND_SUBSCRIPTION"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product_catalogue/BROADBAND_SUBSCRIPTION"
+                    },
+                    "children": [
+                        {
+                            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/BROADBAND_EVERYDAY_LITE"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/FIBRE_UNLIMITED_PRO"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/BROADBAND_UNLIMITED"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/FIBRE_UNLIMITED"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/BROADBAND_CONNECT"
+                        }
+                    ]
+                },
+                "selectable": false,
+                "static_id": "BROADBAND_SUBSCRIPTION",
+                "type": "non-selectable",
+                "_embedded": {
+                    "children": [
+                        {
+                            "name": "Broadband Everyday Lite",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "$host/stubs/baskalogue/basket/538c4235ff58f06efb66f238/products;action=target;path=B_000109-P_000202-P_000199-P_000201-C_000188;type=discrete",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/BROADBAND_EVERYDAY_LITE"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product/B_000109.P_000202.P_000199.P_000201.C_000188"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "BROADBAND_EVERYDAY_LITE",
+                            "type": "discrete",
+                            "quantity": 0
+                        },
+                        {
+                            "name": "Fibre Unlimited Pro",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products;action=target;path=B_000109-P_000202-P_000199-P_000201-C_000808;type=discrete",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/FIBRE_UNLIMITED_PRO"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product/B_000109.P_000202.P_000199.P_000201.C_000808"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "FIBRE_UNLIMITED_PRO",
+                            "type": "discrete",
+                            "quantity": 0
+                        },
+                        {
+                            "name": "Broadband Unlimited",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products;action=target;path=B_000109-P_000202-P_000199-P_000201-C_000189;type=discrete",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/BROADBAND_UNLIMITED"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product/B_000109.P_000202.P_000199.P_000201.C_000189"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "BROADBAND_UNLIMITED",
+                            "type": "discrete",
+                            "quantity": 0
+                        },
+                        {
+                            "name": "Fibre Unlimited",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products;action=target;path=B_000109-P_000202-P_000199-P_000201-C_000765;type=discrete",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/FIBRE_UNLIMITED"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product/B_000109.P_000202.P_000199.P_000201.C_000765"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "FIBRE_UNLIMITED",
+                            "type": "discrete",
+                            "quantity": 0
+                        },
+                        {
+                            "name": "Broadband Connect",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products;action=target;path=B_000109-P_000202-P_000199-P_000201-C_000190;type=discrete",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/BROADBAND_CONNECT"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product/B_000109.P_000202.P_000199.P_000201.C_000190"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "BROADBAND_CONNECT",
+                            "type": "discrete",
+                            "quantity": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/baskalogue/BROADBAND_INSTALLATION"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product_catalogue/BROADBAND_INSTALLATION"
+                    },
+                    "children": [
+                        {
+                            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/FIBRE_STANDARD_INSTALLATION"
+                        }
+                    ]
+                },
+                "selectable": false,
+                "static_id": "BROADBAND_INSTALLATION",
+                "type": "non-selectable",
+                "_embedded": {
+                    "children": [
+                        {
+                            "name": "Standard Installation",
+                            "_links": {
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/FIBRE_STANDARD_INSTALLATION"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product/B_000109.P_000202.P_000199.P_000769.C_000768"
+                                }
+                            },
+                            "selectable": false,
+                            "static_id": "FIBRE_STANDARD_INSTALLATION",
+                            "type": "non-selectable",
+                            "quantity": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/baskalogue/BROADBAND_EQUIPMENT"
+                    },
+                    "spec": {
+                        "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product_catalogue/BROADBAND_EQUIPMENT"
+                    },
+                    "children": [
+                        {
+                            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/SKY_WIRELESS_N_ROUTER"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/SKY_WIFI_HUB2_FIBRE"
+                        },
+                        {
+                            "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/SKY_WIRELESS_N_ADAPTER"
+                        }
+                    ]
+                },
+                "selectable": false,
+                "static_id": "BROADBAND_EQUIPMENT",
+                "type": "non-selectable",
+                "_embedded": {
+                    "children": [
+                        {
+                            "name": "Sky Wireless N Router",
+                            "_links": {
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/SKY_WIRELESS_N_ROUTER"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product/B_000109.P_000202.P_000199.P_000347.C_000345"
+                                }
+                            },
+                            "selectable": false,
+                            "static_id": "SKY_WIRELESS_N_ROUTER",
+                            "type": "non-selectable",
+                            "quantity": 0
+                        },
+                        {
+                            "name": "Sky Hub 2.0",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products;action=target;path=B_000109-P_000202-P_000199-P_000347-C_001154;type=integral",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/SKY_WIFI_HUB2_FIBRE"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product/B_000109.P_000202.P_000199.P_000347.C_001154"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "SKY_WIFI_HUB2_FIBRE",
+                            "type": "integral",
+                            "quantity": 0
+                        },
+                        {
+                            "name": "Sky Wireless N Adapter",
+                            "_links": {
+                                "add_purchase": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products;action=target;path=B_000109-P_000202-P_000199-P_000347-C_000346;type=integral",
+                                    "method": "POST"
+                                },
+                                "self": {
+                                    "href": "http://0.0.0.0:7777/basket/538c4235ff58f06efb66f238/products/SKY_WIRELESS_N_ADAPTER"
+                                },
+                                "spec": {
+                                    "href": "http://0.0.0.0:9077/api/catalogue/retail/2014-05-29/product/B_000109.P_000202.P_000199.P_000347.C_000346"
+                                }
+                            },
+                            "selectable": true,
+                            "static_id": "SKY_WIRELESS_N_ADAPTER",
+                            "type": "integral",
+                            "quantity": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
+        

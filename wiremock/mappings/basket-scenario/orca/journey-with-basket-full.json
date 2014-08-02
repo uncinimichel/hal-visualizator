@@ -1,0 +1,14 @@
+{
+    "description": "Basket scenario journey",
+    "newScenarioState": "Product added",
+    "scenarioName": "Sky Broadband",
+    "request": {
+        "method": "GET",
+        "url": "/orca/standard-sales-journey/BASKETSCENARIO_FULL_BASKET"
+    },
+    "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/hal+json" },
+        "bodyFileName": "basket-scenario/orca/journey.json"
+    }
+}

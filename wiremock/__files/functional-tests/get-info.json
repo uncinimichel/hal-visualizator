@@ -1,0 +1,8 @@
+{
+    "_links": {
+        "self": {
+            "href": "$host/functional-tests/get-info"
+        }
+    },
+    "data": "This is some info"
+}

@@ -1,0 +1,13 @@
+{
+    "description": "Baskalogue root with test scenario",
+    "scenarioName": "Test",
+    "newScenarioState": "DoingThis",
+    "request": {
+        "method": "GET",
+        "urlPattern": "/baskalogue/test1"
+
+    },
+    "response": {
+        "status": 200
+    }
+}
