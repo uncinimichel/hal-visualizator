@@ -16,7 +16,7 @@ var getParamsModal = function ($scope, $modalInstance, node) {
 };
 
 
-angular.module('HalVisualizator').controller('HalVisualizatorController', function ($scope, HalNodeService, $modal, D3shape) {
+angular.module('HalVisualizator').controller('HalVisualizatorController', function ($scope, HalNodeService, $modal, HalToD3) {
     var root = '/stubs/orca/';
 
     var modalInstanceGetParams = function (params, paramsHistory) {
@@ -34,16 +34,20 @@ angular.module('HalVisualizator').controller('HalVisualizatorController', functi
                 }
             });
         },
-        addChildrenToNodeAndDraw = function (node, children) {
+        createNodeChildrenAndDraw = function (node, links, props, embedded) {
             //create node to render for D3;
-            D3shape.addChildrenToNode(node, children);
+            node.children = HalToD3.createNodeChildren(links, props, embedded);
 
             $scope.$broadcast('draw');
         };
 
-    $scope.halRoot = HalNodeService.createNode(root);
+    $scope.halRoot = HalToD3.createRoot(root);
+
 
     $scope.halNodeClick = function (node) {
+        if (_.isUndefined(node.nodeLink)) {
+            return false;
+        }
         console.log('node hal: ', node.nodeLink);
 
         var params = node.nodeLink.getParams();
@@ -52,13 +56,21 @@ angular.module('HalVisualizator').controller('HalVisualizatorController', functi
         if (!_.isEmpty(params)) {
 
             modalInstanceGetParams(params, paramsHistory).result.then(function (params) {
-                return node.nodeLink.loadChildrenLinks(params);
-            }).then(function (children) {
-                addChildrenToNodeAndDraw(node, children)
+                return node.nodeLink.loadResource(params);
+            }).then(function (resource) {
+                var links = resource.links,
+                    props = resource.props,
+                    embedded = resource.embedded;
+
+                createNodeChildrenAndDraw(node, links, props, embedded);
             });
         } else {
-            node.nodeLink.loadChildrenLinks([]).then(function (children) {
-                addChildrenToNodeAndDraw(node, children)
+            node.nodeLink.loadResource([]).then(function (resource) {
+                var links = resource.links,
+                    props = resource.props,
+                    embedded = resource.embedded;
+
+                createNodeChildrenAndDraw(node, links, props, embedded);
             });
         }
 

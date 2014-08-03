@@ -67,7 +67,7 @@ angular.module('HalVisualizator').directive('halVisualizatorDom', function (d3) 
             }, true);
 
             // Initialize the display to show a few nodes.
-            root.children.forEach(toggleAll);
+           // root.children.forEach(toggleAll);
 
             // define render function
             scope.render = function (source) {

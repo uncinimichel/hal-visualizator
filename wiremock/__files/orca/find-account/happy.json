@@ -1,27 +1,51 @@
 {
     "_links": {
-        "curies": [{
-            "href": "$host/rels/{rel}",
-            "name": "orca",
-            "templated": true
-        }],
+        "curies": [
+            {
+                "href": "$host/rels/{rel}",
+                "name": "orca",
+                "templated": true
+            }
+        ],
         "self": {
             "href": "$host/webapi/find_account?party_id=11111111111111111111111"
         },
-        "orca:find-bundles": [{
-            "href": "$host/webapi/find_bundles/11111111111111111111111?installation_directory_number=02078901111&billing_account_number=111111111111&installation_postcode=EH8+8BA"
-        }],
-        "orca:find-commercial-bundles": [{
-            "href": "$host/webapi/find_commercial_bundles?installation_directory_number=02078901111&billing_account_number=111111111111&installation_postcode=EH8+8BA",
-            "name": "This link is currently experimental and is not intended for use by production clients yet.",
-            "title": "This link is currently experimental and is not intended for use by production clients yet.",
-            "hreflang": "This link is currently experimental and is not intended for use by production clients yet.",
-            "profile": "This link is currently experimental and is not intended for use by production clients yet."
-        }],
-        "orca:standard-sales-journey": [{
-            "href": "$host/stubs/orca/standard_sales_journey?party_id=11111111111111111111111",
-            "method": "POST"
-        }]
+        "orca:find-bundles": [
+            {
+                "href": "$host/webapi/find_bundles/11111111111111111111111?installation_directory_number=02078901111&billing_account_number=111111111111&installation_postcode=EH8+8BA"
+            }
+        ],
+        "orca:find-commercial-bundles": [
+            {
+                "href": "$host/webapi/find_commercial_bundles?installation_directory_number=02078901111&billing_account_number=111111111111&installation_postcode=EH8+8BA",
+                "name": "This link is currently experimental and is not intended for use by production clients yet.",
+                "title": "This link is currently experimental and is not intended for use by production clients yet.",
+                "hreflang": "This link is currently experimental and is not intended for use by production clients yet.",
+                "profile": "This link is currently experimental and is not intended for use by production clients yet."
+            }
+        ],
+        "orca:standard-sales-journey": [
+            {
+                "href": "$host/stubs/orca/standard_sales_journey?party_id=11111111111111111111111",
+                "method": "POST"
+            }
+        ]
+    },
+    "complex": {
+        "complex1": {
+            "prop1": "ciao1",
+            "prop2": "ciao2"
+        },
+        "complex2": {
+            "prop3": "ciao3",
+            "prop4": "ciao4"
+        },
+        "complex4": {
+            "complex5": {
+                "prop5": "ciao5",
+                "prop6": "ciao6"
+            }
+        }
     },
     "active": true,
     "installationDirectoryNumber": "02078901111",

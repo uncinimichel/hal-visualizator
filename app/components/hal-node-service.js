@@ -11,7 +11,7 @@ angular.module('HalVisualizator').factory('HalNodeService', function (HyperResou
          * @param params
          * @returns {*}
          */
-        loadChildrenLinks: function (params) {
+        loadResource: function (params) {
             var self = this;
 
             this.children = {};
@@ -19,13 +19,7 @@ angular.module('HalVisualizator').factory('HalNodeService', function (HyperResou
                 this.paramsHistory.push(params);
                 this.resource.expand(params);
             }
-
-            return this.resource.fetch().then(function (resource) {
-                _.each(resource.links, function (resource, rel) {
-                    self.children[rel] = new NodeLink(resource);
-                });
-                return self.children;
-            });
+            return this.resource.fetch();
         },
 
         getParams: function () {
@@ -45,8 +39,11 @@ angular.module('HalVisualizator').factory('HalNodeService', function (HyperResou
     };
 
     return {
-        createNode: function (href) {
+        createRoot: function (href) {
             return new NodeLink(new HyperResource(href));
+        },
+        createNodeLink: function (resource) {
+            return new NodeLink(resource);
         }
     }
 });
