@@ -7,7 +7,7 @@ describe('HalNodeService', function () {
         halNodeService = _HalNodeService_;
     }));
 
-    describe('getParams', function () {
+    xdescribe('getParams', function () {
 
         it('Should return a list of two params', function () {
             node = halNodeService.createNode('http://localhost:9000/stubs/orca/find_account?a={a},b={b}');
